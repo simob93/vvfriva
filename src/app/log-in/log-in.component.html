@@ -1,0 +1,47 @@
+<div class="row" style="margin:5px;">
+    <div class="col">
+          <div class="alert alert-warning" role="alert">
+              <span *ngIf="isLogin === false" >
+                <i class="material-icons align-middle">&#xE897;</i> Videata con permessi di sola lettura, 
+                <span  data-toggle="modal" data-target="#login"  class="alert-link">Accedi</span>                                  
+              </span>
+              <span *ngIf="isLogin === true" >
+                  <i class="material-icons align-middle">&#xE898;</i>
+                  <span  (click)="doLogOut()"  class="alert-link">Esci dalla modatlità supervisore</span>
+              </span>
+          </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Area Riservata</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <div class="alert alert-danger" [hidden]="messagge === ''" role="alert">
+                <i class="material-icons align-middle">&#xE000;</i> {{messagge}}
+            </div>
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <input type="text" class="form-control" name="username" [(ngModel)]="username" placeholder="Username">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <input type="password" class="form-control" name="password"  [(ngModel)]="password"  placeholder="Password">
+                    </div> 
+                </div>          
+            </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" (click)="doExit()" class="btn btn-secondary" data-dismiss="modal">Chiudi</button>
+          <button type="button" (click)="logIn()" class="btn btn-primary">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>

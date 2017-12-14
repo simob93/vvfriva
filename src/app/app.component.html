@@ -1,0 +1,15 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-2">
+  <a class="navbar-brand" href="#">Gestionale vvf</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <button type="button" routerLink="{{item.view}}"  style="margin-left: 5px" class="btn btn-info" *ngFor="let item of itemsMenu">
+        {{ item.descr }}
+      </button>
+    </div>
+  </div>
+</nav>
+
+<router-outlet ></router-outlet>

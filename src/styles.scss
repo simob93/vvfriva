@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+// version 4
+@import 'variables';
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+.shadow-1 {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+};
+
+.shadow-2 {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+};
+
+.right {
+    float: right;
+}
+
+.avatar-24 {
+    width: 24px;
+    height: 24px;
+    line-height: 16px;
+    text-align: center;
+    font-weight: bold;
+    padding: 4px !important
+}
