@@ -1,4 +1,4 @@
-<div>
+<div style="height:30%;">
  <app-log-in (doLogin)= "lock = !$event"></app-log-in>
   <div class="row"  style="padding: 8px;">
     <div class="col-md-4">
@@ -11,7 +11,7 @@
     </div>
     <div class="col-md-4" style="padding: 8px;">
          totale vigili: <span class="badge badge-dark">{{totaleVigili}}</span>
-         vigili in attesa: <span class="badge badge-dark">{{totaleVigiliAttesa}}</span>
+         <span style="margin-left: 20px;">vigili in attesa: </span><span class="badge badge-dark">{{totaleVigiliAttesa}}</span>
          
     </div>
     
@@ -44,13 +44,13 @@
       <td>{{vigile.patente}}</td>
       <td>{{vigile.note}}</td>
       <td>
-        <button type="button" [disabled]="lock" class="btn btn-sm btn-outline-danger"><i class="material-icons">&#xE872;</i></button>
-        <button type="button" [disabled]="lock" (click)="editVigile(vigile)" class="btn btn-sm btn-outline-secondary"><i class="material-icons">mode_edit</i></button>
+        <button type="button" [disabled]="lock" class="btn btn-sm btn-outline-danger"><i class="material-icons align-middle">&#xE872;</i></button>
+        <button type="button" [disabled]="lock" (click)="editVigile(vigile)" class="btn btn-sm btn-outline-secondary"><i class="material-icons align-middle">mode_edit</i></button>
       </td>
     </tr>
   </tbody>
 </table>
-</div>
+
 <!--  MASCHERA DI INSERIMENTO / MODIFICA VIGILE !-->
 <div class="modal fade" id="form-vigili" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg" role="document">
@@ -61,40 +61,62 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body">
+        <div class="modal-body" style="height: 600px; overflow-y: auto;">
             <form [formGroup]="vigile">
                 <div class="form-row">
+                  
+                  <div class="form-group col-md-6">
+                      <label>Nome:*</label>
+                      <input type="text" class="form-control" [ngClass]="{'is-invalid':!vigile.controls['nome'].valid}"  formControlName="nome"  placeholder="Nome" >
+                      <div class="invalid-feedback" *ngIf="!vigile.controls['nome'].valid && vigile.controls['nome'].touched">
+                        Campo nome obbligatorio</div>                      
+                  </div>
+                    
                     <div class="form-group col-md-6">
-                      <input type="text" class="form-control" formControlName="nome"  placeholder="Nome">
+                        <label>Cognome:*</label>
+                        <input type="text" class="form-control" [ngClass]="{'is-invalid':!vigile.controls['cognome'].valid}" formControlName="cognome"   placeholder="Cognome">
+                        <div class="invalid-feedback" *ngIf="!vigile.controls['cognome'].valid && vigile.controls['cognome'].touched">
+                        Campo Cognome obbligatorio</div> 
                     </div>
                     <div class="form-group col-md-6">
-                        <input type="text" class="form-control" formControlName="cognome"   placeholder="Cognome">
+                        <label>Data di nascita:*</label>
+                       <input type="date" class="form-control" [ngClass]="{'is-invalid':!vigile.controls['dataNascita'].valid}" formControlName="dataNascita"   placeholder="Data di nascita">
+                       <div class="invalid-feedback" *ngIf="!vigile.controls['dataNascita'].valid && vigile.controls['dataNascita'].touched">
+                          Campo Data di nascita obbligatorio</div>
                     </div>
                     <div class="form-group col-md-6">
-                        <input type="date" class="form-control" formControlName="dataNascita"   placeholder="Data di nascita">
-                    </div>
-                    <div class="form-group col-md-6">
-                        <select class="custom-select" formControlName="grado" > 
-                           <option *ngFor="let item of grado" [value]="item">{{item}}</option>
+                        <label>Grado:*</label>
+                        <select class="custom-select form-control" formControlName="grado" [ngClass]="{'is-invalid':!vigile.controls['grado'].valid}" >  
+                          <option *ngFor="let item of grado" [value]="item">{{item}}</option>
                         </select>
+                        <div class="invalid-feedback" *ngIf="!vigile.controls['grado'].valid && vigile.controls['grado'].touched">
+                        Campo Grado obbligatorio</div>
                     </div> 
                     <div class="form-group col-md-6">
+                        <label>Qualifica:</label>
                         <input type="text" class="form-control" formControlName="qualifica"   placeholder="Qualifica">                        
                     </div>  
                     <div class="form-group col-md-6">
+                        <label>Patente:</label>
                         <input type="text" class="form-control" formControlName="patente"   placeholder="Patente">                        
                     </div> 
                     <div class="form-group col-md-6">
+                        <label>Cerca persone:</label>
                         <input type="text" class="form-control" formControlName="cercaPersone"   placeholder="Cerca persone">                        
                     </div>
+                    
                     <div class="form-group col-md-6">
-                        <input type="text" class="form-control" formControlName="letteraVigile"   placeholder="Lettera vigile">                        
-                    </div> 
-                    <div class="form-group col-md-6">
-                        <select class="custom-select" formControlName="idSquadra" >
+                        <label>Squadra:</label>
+                        <select (change)="getLetteraVigile($event.target.value)" class="custom-select form-control" formControlName="idSquadra" >
                             <option *ngFor="let item of squadra" [value]="item">{{item}}</option>
                          </select>                        
-                    </div>   
+                    </div>  
+                    <div class="form-group col-md-6">
+                        <label>Lettera vigile:</label>
+                        <input type="text" class="form-control" [ngClass]="{'is-invalid':!vigile.controls['letteraVigile'].valid}" formControlName="letteraVigile"   placeholder="Lettera vigile">                        
+                        <div class="invalid-feedback" *ngIf="!vigile.controls['letteraVigile'].valid && vigile.controls['letteraVigile'].touched">
+                        Campo lettera vigile obbligatorio</div>
+                     </div>  
                 </div>
                 <div class="form-row">
                     <div class="form-group col-md-9">
@@ -110,3 +132,4 @@
       </div>
     </div>
   </div>
+</div>

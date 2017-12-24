@@ -28,21 +28,35 @@ export class VigiliComponent implements OnInit {
     private fb: FormBuilder,
   ) { }
  
+  /**
+   * 
+   * @param value 
+   */
   trova (value) {
     this.listVigili = this.tmp;
     this.listVigili= this.listVigili.filter( it => it.nome.toLowerCase().includes(value));
     this.totaleVigili =  this.listVigili.length;
   }
+  /**
+   * 
+   */
   clickNuovo() {
     this.ttleWin = 'Nuovo Vigile'
     this.vigile.reset()
   }
+  /**
+   * 
+   * @param vigile 
+   */
   editVigile(vigile) {
     this.ttleWin = 'Modfica Vigile'
     delete vigile.squadra;
     this.vigile.setValue(vigile);
     $('#form-vigili').modal('show')
   }
+  /**
+   * 
+   */
   getVigiliAttesa(): number {
     let count = 0;
     this.listVigili.forEach(element => {
@@ -52,24 +66,51 @@ export class VigiliComponent implements OnInit {
     });
     return count;
   }
-  
+/**
+ * 
+ * @param value 
+ */
+  getLetteraVigile(value) {
+    debugger;
+    this.vigiliService.getLettereDisp(value).subscribe(rec => {
+      if (rec.data.length > 0) {
+        this.vigile.controls['letteraVigile'].setValue(rec.data[0].valore);
+      }
+    });
+  }
+  /**
+   * 
+   */
   ngOnInit() {
     //dichiarazione form 
     this.vigile = this.fb.group({
 			id: '',
 			//nomeScuola: ['', Validators.required ],
-      nome: '',
-      cognome: '',
-      dataNascita: '',
-      grado: '',
+      nome: [null, Validators.required ],
+      cognome: [null, Validators.required ],
+      dataNascita: [null, Validators.required ],
+      grado: [null, Validators.required ],
       qualifica: '',
       idSquadra:'',
       patente: '',
       cercaPersone: '',
       capoSquadra: '',
       note: '',
-      letteraVigile: ''
-		});
+      letteraVigile: null
+    });
+    
+    /**
+     *  validazione dei campi custom, idSquadra, se ho una sqaudra la lettera del vigile è oligatoria 
+     */
+    this.vigile.get('idSquadra').valueChanges.subscribe(value => {
+      let cmpLettera = this.vigile.get('letteraVigile');  
+      if (value !== null) {
+        cmpLettera.setValidators([Validators.required]);
+      } else {
+          cmpLettera.setValidators(null);
+      }
+      cmpLettera.updateValueAndValidity();
+    });
 
     this.vigiliService.list().subscribe(rec => {
         this.listVigili = rec.data;
