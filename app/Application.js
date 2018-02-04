@@ -10,10 +10,11 @@ Ext.define('vvf.Application', {
 
     stores: [
         // TODO: add global / shared stores here
+        
     ],
 
     launch: function () {
-        // TODO - Launch the application
+        Standard.onAjaxRequest();
     },
 
     onAppUpdate: function () {

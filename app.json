@@ -3,7 +3,7 @@
     "version": "1.0.0.0",
     "framework": "ext",
     "toolkit": "classic",
-    "theme": "theme-triton",
+    "theme": "theme-neptune",
 
     /**
      * The list of required packages (with optional versions; default is "latest").
@@ -495,5 +495,5 @@
      * Uniquely generated id for this application, used as prefix for localStorage keys.
      * Normally you should never change this value.
      */
-    "id": "8dc0daca-a54d-48de-87e3-cf660964b85f"
+    "id": "a9cc3fe5-4109-44d5-980e-71740f096b3c"
 }

@@ -1,2 +1,2 @@
 // @tag full-page
-// @require D:\sviluppo_SW\gui\vvf\app.js
+// @require D:\tomcat\tomcat9.0.0\webapps\vvf\app.js
