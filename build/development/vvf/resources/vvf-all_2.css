@@ -1,213 +1,4 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
-.x-tab.x-tab-disabled .x-tab-default-right-tl,
-.x-tab.x-tab-disabled .x-tab-default-right-bl,
-.x-tab.x-tab-disabled .x-tab-default-right-tr,
-.x-tab.x-tab-disabled .x-tab-default-right-br,
-.x-tab.x-tab-disabled .x-tab-default-right-tc,
-.x-tab.x-tab-disabled .x-tab-default-right-bc {
-    background-image: url(images/tab/tab-default-right-disabled-corners.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
-.x-tab.x-tab-disabled .x-tab-default-right-ml,
-.x-tab.x-tab-disabled .x-tab-default-right-mr {
-    background-image: url(images/tab/tab-default-right-disabled-sides.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
-.x-tab.x-tab-disabled .x-tab-default-right-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-right-disabled-fbg.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
-.x-tab-over .x-tab-default-bottom-tl,
-.x-tab-over .x-tab-default-bottom-bl,
-.x-tab-over .x-tab-default-bottom-tr,
-.x-tab-over .x-tab-default-bottom-br,
-.x-tab-over .x-tab-default-bottom-tc,
-.x-tab-over .x-tab-default-bottom-bc {
-    background-image: url(images/tab/tab-default-bottom-over-corners.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
-.x-tab-over .x-tab-default-bottom-ml,
-.x-tab-over .x-tab-default-bottom-mr {
-    background-image: url(images/tab/tab-default-bottom-over-sides.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
-.x-tab-over .x-tab-default-bottom-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-bottom-over-fbg.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
-.x-tab-focus .x-tab-default-bottom-tl,
-.x-tab-focus .x-tab-default-bottom-bl,
-.x-tab-focus .x-tab-default-bottom-tr,
-.x-tab-focus .x-tab-default-bottom-br,
-.x-tab-focus .x-tab-default-bottom-tc,
-.x-tab-focus .x-tab-default-bottom-bc {
-    background-image: url(images/tab/tab-default-bottom-focus-corners.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
-.x-tab-focus .x-tab-default-bottom-ml,
-.x-tab-focus .x-tab-default-bottom-mr {
-    background-image: url(images/tab/tab-default-bottom-focus-sides.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
-.x-tab-focus .x-tab-default-bottom-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-bottom-focus-fbg.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
-.x-tab-focus.x-tab-over .x-tab-default-bottom-tl,
-.x-tab-focus.x-tab-over .x-tab-default-bottom-bl,
-.x-tab-focus.x-tab-over .x-tab-default-bottom-tr,
-.x-tab-focus.x-tab-over .x-tab-default-bottom-br,
-.x-tab-focus.x-tab-over .x-tab-default-bottom-tc,
-.x-tab-focus.x-tab-over .x-tab-default-bottom-bc {
-    background-image: url(images/tab/tab-default-bottom-focus-over-corners.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
-.x-tab-focus.x-tab-over .x-tab-default-bottom-ml,
-.x-tab-focus.x-tab-over .x-tab-default-bottom-mr {
-    background-image: url(images/tab/tab-default-bottom-focus-over-sides.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
-.x-tab-focus.x-tab-over .x-tab-default-bottom-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-bottom-focus-over-fbg.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
-.x-tab.x-tab-active .x-tab-default-bottom-tl,
-.x-tab.x-tab-active .x-tab-default-bottom-bl,
-.x-tab.x-tab-active .x-tab-default-bottom-tr,
-.x-tab.x-tab-active .x-tab-default-bottom-br,
-.x-tab.x-tab-active .x-tab-default-bottom-tc,
-.x-tab.x-tab-active .x-tab-default-bottom-bc {
-    background-image: url(images/tab/tab-default-bottom-active-corners.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
-.x-tab.x-tab-active .x-tab-default-bottom-ml,
-.x-tab.x-tab-active .x-tab-default-bottom-mr {
-    background-image: url(images/tab/tab-default-bottom-active-sides.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
-.x-tab.x-tab-active .x-tab-default-bottom-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-bottom-active-fbg.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
-.x-tab-focus.x-tab-active .x-tab-default-bottom-tl,
-.x-tab-focus.x-tab-active .x-tab-default-bottom-bl,
-.x-tab-focus.x-tab-active .x-tab-default-bottom-tr,
-.x-tab-focus.x-tab-active .x-tab-default-bottom-br,
-.x-tab-focus.x-tab-active .x-tab-default-bottom-tc,
-.x-tab-focus.x-tab-active .x-tab-default-bottom-bc {
-    background-image: url(images/tab/tab-default-bottom-focus-active-corners.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
-.x-tab-focus.x-tab-active .x-tab-default-bottom-ml,
-.x-tab-focus.x-tab-active .x-tab-default-bottom-mr {
-    background-image: url(images/tab/tab-default-bottom-focus-active-sides.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
-.x-tab-focus.x-tab-active .x-tab-default-bottom-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-bottom-focus-active-fbg.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
-.x-tab.x-tab-disabled .x-tab-default-bottom-tl,
-.x-tab.x-tab-disabled .x-tab-default-bottom-bl,
-.x-tab.x-tab-disabled .x-tab-default-bottom-tr,
-.x-tab.x-tab-disabled .x-tab-default-bottom-br,
-.x-tab.x-tab-disabled .x-tab-default-bottom-tc,
-.x-tab.x-tab-disabled .x-tab-default-bottom-bc {
-    background-image: url(images/tab/tab-default-bottom-disabled-corners.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
-.x-tab.x-tab-disabled .x-tab-default-bottom-ml,
-.x-tab.x-tab-disabled .x-tab-default-bottom-mr {
-    background-image: url(images/tab/tab-default-bottom-disabled-sides.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
-.x-tab.x-tab-disabled .x-tab-default-bottom-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-bottom-disabled-fbg.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
-.x-tab-over .x-tab-default-left-tl,
-.x-tab-over .x-tab-default-left-bl,
-.x-tab-over .x-tab-default-left-tr,
-.x-tab-over .x-tab-default-left-br,
-.x-tab-over .x-tab-default-left-tc,
-.x-tab-over .x-tab-default-left-bc {
-    background-image: url(images/tab/tab-default-left-over-corners.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
-.x-tab-over .x-tab-default-left-ml,
-.x-tab-over .x-tab-default-left-mr {
-    background-image: url(images/tab/tab-default-left-over-sides.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
-.x-tab-over .x-tab-default-left-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-left-over-fbg.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
-.x-tab-focus .x-tab-default-left-tl,
-.x-tab-focus .x-tab-default-left-bl,
-.x-tab-focus .x-tab-default-left-tr,
-.x-tab-focus .x-tab-default-left-br,
-.x-tab-focus .x-tab-default-left-tc,
-.x-tab-focus .x-tab-default-left-bc {
-    background-image: url(images/tab/tab-default-left-focus-corners.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
-.x-tab-focus .x-tab-default-left-ml,
-.x-tab-focus .x-tab-default-left-mr {
-    background-image: url(images/tab/tab-default-left-focus-sides.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
-.x-tab-focus .x-tab-default-left-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-left-focus-fbg.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
-.x-tab-focus.x-tab-over .x-tab-default-left-tl,
-.x-tab-focus.x-tab-over .x-tab-default-left-bl,
-.x-tab-focus.x-tab-over .x-tab-default-left-tr,
-.x-tab-focus.x-tab-over .x-tab-default-left-br,
-.x-tab-focus.x-tab-over .x-tab-default-left-tc,
-.x-tab-focus.x-tab-over .x-tab-default-left-bc {
-    background-image: url(images/tab/tab-default-left-focus-over-corners.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
-.x-tab-focus.x-tab-over .x-tab-default-left-ml,
-.x-tab-focus.x-tab-over .x-tab-default-left-mr {
-    background-image: url(images/tab/tab-default-left-focus-over-sides.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
-.x-tab-focus.x-tab-over .x-tab-default-left-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-left-focus-over-fbg.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
-.x-tab.x-tab-active .x-tab-default-left-tl,
-.x-tab.x-tab-active .x-tab-default-left-bl,
-.x-tab.x-tab-active .x-tab-default-left-tr,
-.x-tab.x-tab-active .x-tab-default-left-br,
-.x-tab.x-tab-active .x-tab-default-left-tc,
-.x-tab.x-tab-active .x-tab-default-left-bc {
-    background-image: url(images/tab/tab-default-left-active-corners.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2966 */
-.x-tab.x-tab-active .x-tab-default-left-ml,
-.x-tab.x-tab-active .x-tab-default-left-mr {
-    background-image: url(images/tab/tab-default-left-active-sides.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2971 */
-.x-tab.x-tab-active .x-tab-default-left-mc {
-    background-repeat: repeat-x;
-    background-image: url(images/tab/tab-default-left-active-fbg.gif);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2957 */
 .x-tab-focus.x-tab-active .x-tab-default-left-tl,
 .x-tab-focus.x-tab-active .x-tab-default-left-bl,
 .x-tab-focus.x-tab-active .x-tab-default-left-tr,
@@ -300,153 +91,9 @@
     padding-right: 0px;
     padding-left: 15px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-focus-corners.gif), sides:url(images/tab/tab-default-top-focus-sides.gif), frame-bg:url(images/tab/tab-default-top-focus-fbg.gif), frame:3px 3px 3px 3px, stretch:bottom" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-focus-corners.gif), sides:url(images/tab/tab-default-right-focus-sides.gif), frame-bg:url(images/tab/tab-default-right-focus-fbg.gif), frame:3px 3px 3px 3px, stretch:left" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-focus-corners.gif), sides:url(images/tab/tab-default-bottom-focus-sides.gif), frame-bg:url(images/tab/tab-default-bottom-focus-fbg.gif), frame:3px 3px 3px 3px, stretch:top" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-focus-corners.gif), sides:url(images/tab/tab-default-left-focus-sides.gif), frame-bg:url(images/tab/tab-default-left-focus-fbg.gif), frame:3px 3px 3px 3px, stretch:right" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-over-corners.gif), sides:url(images/tab/tab-default-top-over-sides.gif), frame-bg:url(images/tab/tab-default-top-over-fbg.gif), frame:3px 3px 3px 3px, stretch:bottom" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-over-corners.gif), sides:url(images/tab/tab-default-right-over-sides.gif), frame-bg:url(images/tab/tab-default-right-over-fbg.gif), frame:3px 3px 3px 3px, stretch:left" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-over-corners.gif), sides:url(images/tab/tab-default-bottom-over-sides.gif), frame-bg:url(images/tab/tab-default-bottom-over-fbg.gif), frame:3px 3px 3px 3px, stretch:top" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-over-corners.gif), sides:url(images/tab/tab-default-left-over-sides.gif), frame-bg:url(images/tab/tab-default-left-over-fbg.gif), frame:3px 3px 3px 3px, stretch:right" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-active-corners.gif), sides:url(images/tab/tab-default-top-active-sides.gif), frame-bg:url(images/tab/tab-default-top-active-fbg.gif), frame:3px 3px 3px 3px, stretch:bottom" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-active-corners.gif), sides:url(images/tab/tab-default-right-active-sides.gif), frame-bg:url(images/tab/tab-default-right-active-fbg.gif), frame:3px 3px 3px 3px, stretch:left" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-active-corners.gif), sides:url(images/tab/tab-default-bottom-active-sides.gif), frame-bg:url(images/tab/tab-default-bottom-active-fbg.gif), frame:3px 3px 3px 3px, stretch:top" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-active-corners.gif), sides:url(images/tab/tab-default-left-active-sides.gif), frame-bg:url(images/tab/tab-default-left-active-fbg.gif), frame:3px 3px 3px 3px, stretch:right" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-focus-over-corners.gif), sides:url(images/tab/tab-default-top-focus-over-sides.gif), frame-bg:url(images/tab/tab-default-top-focus-over-fbg.gif), frame:3px 3px 3px 3px, stretch:bottom" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-focus-over-corners.gif), sides:url(images/tab/tab-default-right-focus-over-sides.gif), frame-bg:url(images/tab/tab-default-right-focus-over-fbg.gif), frame:3px 3px 3px 3px, stretch:left" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-focus-over-corners.gif), sides:url(images/tab/tab-default-bottom-focus-over-sides.gif), frame-bg:url(images/tab/tab-default-bottom-focus-over-fbg.gif), frame:3px 3px 3px 3px, stretch:top" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-focus-over-corners.gif), sides:url(images/tab/tab-default-left-focus-over-sides.gif), frame-bg:url(images/tab/tab-default-left-focus-over-fbg.gif), frame:3px 3px 3px 3px, stretch:right" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-focus-active-corners.gif), sides:url(images/tab/tab-default-top-focus-active-sides.gif), frame-bg:url(images/tab/tab-default-top-focus-active-fbg.gif), frame:3px 3px 3px 3px, stretch:bottom" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-focus-active-corners.gif), sides:url(images/tab/tab-default-right-focus-active-sides.gif), frame-bg:url(images/tab/tab-default-right-focus-active-fbg.gif), frame:3px 3px 3px 3px, stretch:left" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-focus-active-corners.gif), sides:url(images/tab/tab-default-bottom-focus-active-sides.gif), frame-bg:url(images/tab/tab-default-bottom-focus-active-fbg.gif), frame:3px 3px 3px 3px, stretch:top" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-focus-active-corners.gif), sides:url(images/tab/tab-default-left-focus-active-sides.gif), frame-bg:url(images/tab/tab-default-left-focus-active-fbg.gif), frame:3px 3px 3px 3px, stretch:right" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-top-disabled-corners.gif), sides:url(images/tab/tab-default-top-disabled-sides.gif), frame-bg:url(images/tab/tab-default-top-disabled-fbg.gif), frame:3px 3px 3px 3px, stretch:bottom" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-right-disabled-corners.gif), sides:url(images/tab/tab-default-right-disabled-sides.gif), frame-bg:url(images/tab/tab-default-right-disabled-fbg.gif), frame:3px 3px 3px 3px, stretch:left" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-bottom-disabled-corners.gif), sides:url(images/tab/tab-default-bottom-disabled-sides.gif), frame-bg:url(images/tab/tab-default-bottom-disabled-fbg.gif), frame:3px 3px 3px 3px, stretch:top" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-default-left-disabled-corners.gif), sides:url(images/tab/tab-default-left-disabled-sides.gif), frame-bg:url(images/tab/tab-default-left-disabled-fbg.gif), frame:3px 3px 3px 3px, stretch:right" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Bar.scss:168 */
 .x-tab-bar-default {
-    background-color: #157fcc;
+    background-color: #b71c1c;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Bar.scss:207 */
 .x-tab-bar-default-top > .x-tab-bar-body-default {
@@ -515,8 +162,8 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Bar.scss:319 */
 .x-tab-bar-strip-default {
     border-style: solid;
-    border-color: #157fcc;
-    background-color: #add2ed;
+    border-color: #b71c1c;
+    background-color: #e6b0b0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Bar.scss:326 */
 .x-tab-bar-top > .x-tab-bar-strip-default {
@@ -704,7 +351,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Bar.scss:580 */
 .x-box-scroller-tab-bar-default {
-    background-color: #157fcc;
+    background-color: #b71c1c;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Bar.scss:586 */
 .x-box-scroller-tab-bar-default .x-ie8 .x-box-scroller-plain {
@@ -725,30 +372,6 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Bar.scss:616 */
 .x-box-scroller-plain.x-box-scroller-tab-bar-default.x-box-scroller-bottom {
     background-image: url(images/tab-bar/default-plain-scroll-bottom.png);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-default-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-default-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:top" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-default-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:right" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-default-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:left" !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/toolbar/Breadcrumb.scss:162 */
 .x-breadcrumb-btn-default {
@@ -1123,11 +746,11 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/window/Toast.scss:17 */
 .x-toast-light .x-window-header {
     /* Custom styling */
-    background-color: #3892d4;
+    background-color: #c23e3e;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/window/Toast.scss:21 */
 .x-toast-light .x-tool-img {
-    background-color: #3892d4;
+    background-color: #c23e3e;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/window/Toast.scss:25 */
 .x-toast-light {
@@ -1231,12 +854,6 @@
 .x-btn-plain-toolbar-small-mc {
     padding: 1px 1px 1px 1px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, frame-bg:url(images/btn/btn-plain-toolbar-small-fbg.gif)" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
 .x-btn-plain-toolbar-small {
     border-color: transparent;
@@ -1252,7 +869,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:464 */
 .x-btn-inner-plain-toolbar-small {
-    font: bold 12px/16px helvetica, arial, verdana, sans-serif;
+    font: bold 12px/16px 'Open Sans', sans-serif;
     color: #666;
     padding: 0 5px;
     max-width: 100%;
@@ -1372,9 +989,9 @@
 .x-btn-focus.x-btn-plain-toolbar-small {
     background-image: none;
     background-color: transparent;
-    -webkit-box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
-    -moz-box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
-    box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
+    -webkit-box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
+    -moz-box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
+    box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:762 */
 .x-btn-plain-toolbar-small .x-btn-arrow-el {
@@ -1392,7 +1009,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:778 */
 .x-btn-plain-toolbar-small.x-arrow-focus .x-btn-arrow-el {
-    border: 1px solid #4297d4;
+    border: 1px solid #c34747;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:785 */
 .x-btn-over.x-btn-plain-toolbar-small {
@@ -1402,9 +1019,9 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:812 */
 .x-btn-focus.x-btn-over.x-btn-plain-toolbar-small {
-    -webkit-box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
-    -moz-box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
-    box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
+    -webkit-box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
+    -moz-box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
+    box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:840 */
 .x-btn.x-btn-menu-active.x-btn-plain-toolbar-small,
@@ -1416,9 +1033,9 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:868 */
 .x-btn-focus.x-btn-menu-active.x-btn-plain-toolbar-small,
 .x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-small {
-    -webkit-box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
-    -moz-box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
-    box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
+    -webkit-box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
+    -moz-box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
+    box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:897 */
 .x-btn.x-btn-disabled.x-btn-plain-toolbar-small {
@@ -1648,54 +1265,18 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1190 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-plain-toolbar-small:after {
     border-width: 1px;
-    border-color: #4297d4;
+    border-color: #c34747;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1204 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-over.x-btn-plain-toolbar-small:after {
     border-width: 1px;
-    border-color: #4297d4;
+    border-color: #c34747;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1219 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-menu-active.x-btn-plain-toolbar-small:after,
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-small:after {
     border-width: 1px;
-    border-color: #4297d4;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-small-focus-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-focus-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-small-focus-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-small-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-over-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-small-over-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-small-focus-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-focus-over-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-small-focus-over-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-small-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-pressed-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-small-pressed-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-small-focus-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-focus-pressed-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-small-focus-pressed-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-plain-toolbar-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-small-disabled-corners.gif), sides:url(images/btn/btn-plain-toolbar-small-disabled-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-small-disabled-fbg.gif)" !important;
+    border-color: #c34747;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
 .x-button-plain-toolbar-small-cell > .x-grid-cell-inner {
@@ -1798,12 +1379,6 @@
 .x-btn-plain-toolbar-medium-mc {
     padding: 1px 1px 1px 1px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, frame-bg:url(images/btn/btn-plain-toolbar-medium-fbg.gif)" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
 .x-btn-plain-toolbar-medium {
     border-color: transparent;
@@ -1819,7 +1394,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:464 */
 .x-btn-inner-plain-toolbar-medium {
-    font: bold 14px/18px helvetica, arial, verdana, sans-serif;
+    font: bold 14px/18px 'Open Sans', sans-serif;
     color: #666;
     padding: 0 8px;
     max-width: 100%;
@@ -1939,9 +1514,9 @@
 .x-btn-focus.x-btn-plain-toolbar-medium {
     background-image: none;
     background-color: transparent;
-    -webkit-box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
-    -moz-box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
-    box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
+    -webkit-box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
+    -moz-box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
+    box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:762 */
 .x-btn-plain-toolbar-medium .x-btn-arrow-el {
@@ -1959,7 +1534,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:778 */
 .x-btn-plain-toolbar-medium.x-arrow-focus .x-btn-arrow-el {
-    border: 1px solid #4297d4;
+    border: 1px solid #c34747;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:785 */
 .x-btn-over.x-btn-plain-toolbar-medium {
@@ -1969,9 +1544,9 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:812 */
 .x-btn-focus.x-btn-over.x-btn-plain-toolbar-medium {
-    -webkit-box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
-    -moz-box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
-    box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
+    -webkit-box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
+    -moz-box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
+    box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:840 */
 .x-btn.x-btn-menu-active.x-btn-plain-toolbar-medium,
@@ -1983,9 +1558,9 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:868 */
 .x-btn-focus.x-btn-menu-active.x-btn-plain-toolbar-medium,
 .x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-medium {
-    -webkit-box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
-    -moz-box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
-    box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
+    -webkit-box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
+    -moz-box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
+    box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:897 */
 .x-btn.x-btn-disabled.x-btn-plain-toolbar-medium {
@@ -2215,54 +1790,18 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1190 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-plain-toolbar-medium:after {
     border-width: 1px;
-    border-color: #4297d4;
+    border-color: #c34747;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1204 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-over.x-btn-plain-toolbar-medium:after {
     border-width: 1px;
-    border-color: #4297d4;
+    border-color: #c34747;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1219 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-menu-active.x-btn-plain-toolbar-medium:after,
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-medium:after {
     border-width: 1px;
-    border-color: #4297d4;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-medium-focus-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-focus-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-medium-focus-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-medium-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-over-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-medium-over-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-medium-focus-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-focus-over-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-medium-focus-over-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-medium-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-pressed-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-medium-pressed-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-medium-focus-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-focus-pressed-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-medium-focus-pressed-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-plain-toolbar-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-medium-disabled-corners.gif), sides:url(images/btn/btn-plain-toolbar-medium-disabled-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-medium-disabled-fbg.gif)" !important;
+    border-color: #c34747;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
 .x-button-plain-toolbar-medium-cell > .x-grid-cell-inner {
@@ -2365,12 +1904,6 @@
 .x-btn-plain-toolbar-large-mc {
     padding: 1px 1px 1px 1px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, frame-bg:url(images/btn/btn-plain-toolbar-large-fbg.gif)" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
 .x-btn-plain-toolbar-large {
     border-color: transparent;
@@ -2386,7 +1919,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:464 */
 .x-btn-inner-plain-toolbar-large {
-    font: bold 16px/20px helvetica, arial, verdana, sans-serif;
+    font: bold 16px/20px 'Open Sans', sans-serif;
     color: #666;
     padding: 0 10px;
     max-width: 100%;
@@ -2506,9 +2039,9 @@
 .x-btn-focus.x-btn-plain-toolbar-large {
     background-image: none;
     background-color: transparent;
-    -webkit-box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
-    -moz-box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
-    box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
+    -webkit-box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
+    -moz-box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
+    box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:762 */
 .x-btn-plain-toolbar-large .x-btn-arrow-el {
@@ -2526,7 +2059,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:778 */
 .x-btn-plain-toolbar-large.x-arrow-focus .x-btn-arrow-el {
-    border: 1px solid #4297d4;
+    border: 1px solid #c34747;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:785 */
 .x-btn-over.x-btn-plain-toolbar-large {
@@ -2536,9 +2069,9 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:812 */
 .x-btn-focus.x-btn-over.x-btn-plain-toolbar-large {
-    -webkit-box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
-    -moz-box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
-    box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
+    -webkit-box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
+    -moz-box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
+    box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:840 */
 .x-btn.x-btn-menu-active.x-btn-plain-toolbar-large,
@@ -2550,9 +2083,9 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:868 */
 .x-btn-focus.x-btn-menu-active.x-btn-plain-toolbar-large,
 .x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-large {
-    -webkit-box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
-    -moz-box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
-    box-shadow: #4297d4 0 1px 0px 0 inset, #4297d4 0 -1px 0px 0 inset, #4297d4 -1px 0 0px 0 inset, #4297d4 1px 0 0px 0 inset;
+    -webkit-box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
+    -moz-box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
+    box-shadow: #c34747 0 1px 0px 0 inset, #c34747 0 -1px 0px 0 inset, #c34747 -1px 0 0px 0 inset, #c34747 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:897 */
 .x-btn.x-btn-disabled.x-btn-plain-toolbar-large {
@@ -2782,54 +2315,18 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1190 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-plain-toolbar-large:after {
     border-width: 1px;
-    border-color: #4297d4;
+    border-color: #c34747;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1204 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-over.x-btn-plain-toolbar-large:after {
     border-width: 1px;
-    border-color: #4297d4;
+    border-color: #c34747;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1219 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-menu-active.x-btn-plain-toolbar-large:after,
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-large:after {
     border-width: 1px;
-    border-color: #4297d4;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-large-focus-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-focus-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-large-focus-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-large-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-over-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-large-over-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-large-focus-over-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-focus-over-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-large-focus-over-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-large-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-pressed-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-large-pressed-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-large-focus-pressed-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-focus-pressed-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-large-focus-pressed-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-plain-toolbar-large:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-plain-toolbar-large-disabled-corners.gif), sides:url(images/btn/btn-plain-toolbar-large-disabled-sides.gif), frame-bg:url(images/btn/btn-plain-toolbar-large-disabled-fbg.gif)" !important;
+    border-color: #c34747;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
 .x-button-plain-toolbar-large-cell > .x-grid-cell-inner {
@@ -2855,13 +2352,13 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:276 */
 .x-panel-light {
-    border-color: #e0ebf3;
+    border-color: #f1e0e0;
     padding: 0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:282 */
 .x-panel-header-light {
     font-size: 13px;
-    border: 1px solid #e0ebf3;
+    border: 1px solid #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:296 */
 .x-panel-header-light .x-tool-img {
@@ -2869,7 +2366,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:307 */
 .x-panel-header-light .x-tool-tool-el {
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:313 */
 .x-panel-header-light-horizontal {
@@ -2930,7 +2427,7 @@
     color: #666;
     font-size: 13px;
     font-weight: bold;
-    font-family: helvetica, arial, verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 16px;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:400 */
@@ -2982,33 +2479,33 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:501 */
 .x-ie8 .x-panel-header-title-light > .x-title-icon-wrap-light > .x-title-icon-light.x-title-glyph {
-    color: #a3a8ac;
+    color: #aba3a3;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:512 */
 .x-panel-body-light {
     background: #fff;
-    border-color: #e0ebf3;
+    border-color: #f1e0e0;
     color: #000;
     font-size: 13px;
     font-weight: normal;
-    font-family: helvetica, arial, verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     border-width: 1px;
     border-style: solid;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:676 */
 .x-panel-header-light {
     background-image: none;
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:680 */
 .x-panel-header-light-vertical {
     background-image: none;
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:685 */
 .x-rtl.x-panel-header-light-vertical {
     background-image: none;
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:738 */
 .x-panel .x-panel-header-light-collapsed-border-top {
@@ -3025,30 +2522,6 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:750 */
 .x-panel .x-panel-header-light-collapsed-border-left {
     border-right-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:top" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:right" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:left" !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:786 */
 .x-panel-header-light-horizontal .x-tool-after-title {
@@ -3084,7 +2557,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:830 */
 .x-panel-header-light .x-tool-focus {
-    outline: 1px solid #157fcc;
+    outline: 1px solid #b71c1c;
     outline-offset: 1px;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:64 */
@@ -3103,7 +2576,7 @@
     right: -2px;
     bottom: -2px;
     left: -2px;
-    border: 1px solid #157fcc;
+    border: 1px solid #b71c1c;
     pointer-events: none;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:842 */
@@ -3121,116 +2594,116 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:2 */
 .x-panel-light-outer-border-l {
-    border-left-color: #e0ebf3 !important;
+    border-left-color: #f1e0e0 !important;
     border-left-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:6 */
 .x-panel-light-outer-border-b {
-    border-bottom-color: #e0ebf3 !important;
+    border-bottom-color: #f1e0e0 !important;
     border-bottom-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:10 */
 .x-panel-light-outer-border-bl {
-    border-bottom-color: #e0ebf3 !important;
+    border-bottom-color: #f1e0e0 !important;
     border-bottom-width: 1px !important;
-    border-left-color: #e0ebf3 !important;
+    border-left-color: #f1e0e0 !important;
     border-left-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:16 */
 .x-panel-light-outer-border-r {
-    border-right-color: #e0ebf3 !important;
+    border-right-color: #f1e0e0 !important;
     border-right-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:20 */
 .x-panel-light-outer-border-rl {
-    border-right-color: #e0ebf3 !important;
+    border-right-color: #f1e0e0 !important;
     border-right-width: 1px !important;
-    border-left-color: #e0ebf3 !important;
+    border-left-color: #f1e0e0 !important;
     border-left-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:26 */
 .x-panel-light-outer-border-rb {
-    border-right-color: #e0ebf3 !important;
+    border-right-color: #f1e0e0 !important;
     border-right-width: 1px !important;
-    border-bottom-color: #e0ebf3 !important;
+    border-bottom-color: #f1e0e0 !important;
     border-bottom-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:32 */
 .x-panel-light-outer-border-rbl {
-    border-right-color: #e0ebf3 !important;
+    border-right-color: #f1e0e0 !important;
     border-right-width: 1px !important;
-    border-bottom-color: #e0ebf3 !important;
+    border-bottom-color: #f1e0e0 !important;
     border-bottom-width: 1px !important;
-    border-left-color: #e0ebf3 !important;
+    border-left-color: #f1e0e0 !important;
     border-left-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:40 */
 .x-panel-light-outer-border-t {
-    border-top-color: #e0ebf3 !important;
+    border-top-color: #f1e0e0 !important;
     border-top-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:44 */
 .x-panel-light-outer-border-tl {
-    border-top-color: #e0ebf3 !important;
+    border-top-color: #f1e0e0 !important;
     border-top-width: 1px !important;
-    border-left-color: #e0ebf3 !important;
+    border-left-color: #f1e0e0 !important;
     border-left-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:50 */
 .x-panel-light-outer-border-tb {
-    border-top-color: #e0ebf3 !important;
+    border-top-color: #f1e0e0 !important;
     border-top-width: 1px !important;
-    border-bottom-color: #e0ebf3 !important;
+    border-bottom-color: #f1e0e0 !important;
     border-bottom-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:56 */
 .x-panel-light-outer-border-tbl {
-    border-top-color: #e0ebf3 !important;
+    border-top-color: #f1e0e0 !important;
     border-top-width: 1px !important;
-    border-bottom-color: #e0ebf3 !important;
+    border-bottom-color: #f1e0e0 !important;
     border-bottom-width: 1px !important;
-    border-left-color: #e0ebf3 !important;
+    border-left-color: #f1e0e0 !important;
     border-left-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:64 */
 .x-panel-light-outer-border-tr {
-    border-top-color: #e0ebf3 !important;
+    border-top-color: #f1e0e0 !important;
     border-top-width: 1px !important;
-    border-right-color: #e0ebf3 !important;
+    border-right-color: #f1e0e0 !important;
     border-right-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:70 */
 .x-panel-light-outer-border-trl {
-    border-top-color: #e0ebf3 !important;
+    border-top-color: #f1e0e0 !important;
     border-top-width: 1px !important;
-    border-right-color: #e0ebf3 !important;
+    border-right-color: #f1e0e0 !important;
     border-right-width: 1px !important;
-    border-left-color: #e0ebf3 !important;
+    border-left-color: #f1e0e0 !important;
     border-left-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:78 */
 .x-panel-light-outer-border-trb {
-    border-top-color: #e0ebf3 !important;
+    border-top-color: #f1e0e0 !important;
     border-top-width: 1px !important;
-    border-right-color: #e0ebf3 !important;
+    border-right-color: #f1e0e0 !important;
     border-right-width: 1px !important;
-    border-bottom-color: #e0ebf3 !important;
+    border-bottom-color: #f1e0e0 !important;
     border-bottom-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:86 */
 .x-panel-light-outer-border-trbl {
-    border-color: #e0ebf3 !important;
+    border-color: #f1e0e0 !important;
     border-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:276 */
 .x-panel-light-framed {
-    border-color: #e0ebf3;
+    border-color: #f1e0e0;
     padding: 0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:282 */
 .x-panel-header-light-framed {
     font-size: 13px;
-    border: 5px solid #e0ebf3;
+    border: 5px solid #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:296 */
 .x-panel-header-light-framed .x-tool-img {
@@ -3238,7 +2711,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:307 */
 .x-panel-header-light-framed .x-tool-tool-el {
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:313 */
 .x-panel-header-light-framed-horizontal {
@@ -3299,7 +2772,7 @@
     color: #666;
     font-size: 13px;
     font-weight: bold;
-    font-family: helvetica, arial, verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 16px;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:400 */
@@ -3351,16 +2824,16 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:501 */
 .x-ie8 .x-panel-header-title-light-framed > .x-title-icon-wrap-light-framed > .x-title-icon-light-framed.x-title-glyph {
-    color: #a3a8ac;
+    color: #aba3a3;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:512 */
 .x-panel-body-light-framed {
     background: #fff;
-    border-color: #e0ebf3;
+    border-color: #f1e0e0;
     color: #000;
     font-size: 13px;
     font-weight: normal;
-    font-family: helvetica, arial, verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     border-width: 1px;
     border-style: solid;
 }
@@ -3469,12 +2942,6 @@
 .x-panel-light-framed-mc {
     padding: 0px 0px 0px 0px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-light-framed:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:5px 5px 5px 5px, corners:url(images/panel/panel-light-framed-corners.gif), sides:url(images/panel/panel-light-framed-sides.gif)" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-top {
     -moz-border-radius-topleft: 4px;
@@ -3492,11 +2959,11 @@
     padding: 5px 5px 5px 5px;
     border-width: 5px 5px 0 5px;
     border-style: solid;
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-panel-header-light-framed-top-mc {
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-panel-header-light-framed-top {
@@ -3587,12 +3054,6 @@
 .x-panel-header-light-framed-top-mc {
     padding: 5px 5px 5px 5px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:5px 5px 0 5px, corners:url(images/panel-header/panel-header-light-framed-top-corners.gif), sides:url(images/panel-header/panel-header-light-framed-top-sides.gif)" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-right {
     -moz-border-radius-topleft: 0;
@@ -3610,16 +3071,16 @@
     padding: 5px 5px 5px 5px;
     border-width: 5px 5px 5px 0;
     border-style: solid;
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:226 */
 .x-rtl.x-panel-header-light-framed-right {
     background-image: none;
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-panel-header-light-framed-right-mc {
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-panel-header-light-framed-right {
@@ -3719,12 +3180,6 @@
 .x-panel-header-light-framed-right-mc {
     padding: 5px 5px 5px 5px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:5px 5px 5px 0, corners:url(images/panel-header/panel-header-light-framed-right-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-right-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-right-sides.gif)" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-bottom {
     -moz-border-radius-topleft: 0;
@@ -3742,11 +3197,11 @@
     padding: 5px 5px 5px 5px;
     border-width: 0 5px 5px 5px;
     border-style: solid;
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-panel-header-light-framed-bottom-mc {
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-panel-header-light-framed-bottom {
@@ -3837,12 +3292,6 @@
 .x-panel-header-light-framed-bottom-mc {
     padding: 5px 5px 5px 5px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 5px 5px 5px, corners:url(images/panel-header/panel-header-light-framed-bottom-corners.gif), sides:url(images/panel-header/panel-header-light-framed-bottom-sides.gif)" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-left {
     -moz-border-radius-topleft: 4px;
@@ -3860,16 +3309,16 @@
     padding: 5px 5px 5px 5px;
     border-width: 5px 0 5px 5px;
     border-style: solid;
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:226 */
 .x-rtl.x-panel-header-light-framed-left {
     background-image: none;
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-panel-header-light-framed-left-mc {
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-panel-header-light-framed-left {
@@ -3969,12 +3418,6 @@
 .x-panel-header-light-framed-left-mc {
     padding: 5px 5px 5px 5px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:5px 0 5px 5px, corners:url(images/panel-header/panel-header-light-framed-left-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-left-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-left-sides.gif)" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-collapsed-top {
     -moz-border-radius-topleft: 4px;
@@ -3992,11 +3435,11 @@
     padding: 5px 5px 5px 5px;
     border-width: 5px;
     border-style: solid;
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-panel-header-light-framed-collapsed-top-mc {
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-panel-header-light-framed-collapsed-top {
@@ -4087,12 +3530,6 @@
 .x-panel-header-light-framed-collapsed-top-mc {
     padding: 5px 5px 5px 5px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-collapsed-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:5px 5px 5px 5px, corners:url(images/panel-header/panel-header-light-framed-collapsed-top-corners.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-top-sides.gif)" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-collapsed-right {
     -moz-border-radius-topleft: 4px;
@@ -4110,16 +3547,16 @@
     padding: 5px 5px 5px 5px;
     border-width: 5px;
     border-style: solid;
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:226 */
 .x-rtl.x-panel-header-light-framed-collapsed-right {
     background-image: none;
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-panel-header-light-framed-collapsed-right-mc {
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-panel-header-light-framed-collapsed-right {
@@ -4219,12 +3656,6 @@
 .x-panel-header-light-framed-collapsed-right-mc {
     padding: 5px 5px 5px 5px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-collapsed-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:5px 5px 5px 5px, corners:url(images/panel-header/panel-header-light-framed-collapsed-right-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-collapsed-right-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-right-sides.gif)" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-collapsed-bottom {
     -moz-border-radius-topleft: 4px;
@@ -4242,11 +3673,11 @@
     padding: 5px 5px 5px 5px;
     border-width: 5px;
     border-style: solid;
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-panel-header-light-framed-collapsed-bottom-mc {
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-panel-header-light-framed-collapsed-bottom {
@@ -4337,12 +3768,6 @@
 .x-panel-header-light-framed-collapsed-bottom-mc {
     padding: 5px 5px 5px 5px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-collapsed-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:5px 5px 5px 5px, corners:url(images/panel-header/panel-header-light-framed-collapsed-bottom-corners.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-bottom-sides.gif)" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-panel-header-light-framed-collapsed-left {
     -moz-border-radius-topleft: 4px;
@@ -4360,16 +3785,16 @@
     padding: 5px 5px 5px 5px;
     border-width: 5px;
     border-style: solid;
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:226 */
 .x-rtl.x-panel-header-light-framed-collapsed-left {
     background-image: none;
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:237 */
 .x-panel-header-light-framed-collapsed-left-mc {
-    background-color: #e0ebf3;
+    background-color: #f1e0e0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:264 */
 .x-nbr .x-panel-header-light-framed-collapsed-left {
@@ -4469,12 +3894,6 @@
 .x-panel-header-light-framed-collapsed-left-mc {
     padding: 5px 5px 5px 5px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-light-framed-collapsed-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:5px 5px 5px 5px, corners:url(images/panel-header/panel-header-light-framed-collapsed-left-corners.gif), corners-rtl:url(images/panel-header/panel-header-light-framed-collapsed-left-corners-rtl.gif), sides:url(images/panel-header/panel-header-light-framed-collapsed-left-sides.gif)" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:638 */
 .x-panel .x-panel-header-light-framed-top {
     border-bottom-width: 5px !important;
@@ -4541,7 +3960,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:830 */
 .x-panel-header-light-framed .x-tool-focus {
-    outline: 1px solid #157fcc;
+    outline: 1px solid #b71c1c;
     outline-offset: 1px;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:64 */
@@ -4560,7 +3979,7 @@
     right: -2px;
     bottom: -2px;
     left: -2px;
-    border: 1px solid #157fcc;
+    border: 1px solid #b71c1c;
     pointer-events: none;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:842 */
@@ -4618,105 +4037,105 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:2 */
 .x-panel-light-framed-outer-border-l {
-    border-left-color: #e0ebf3 !important;
+    border-left-color: #f1e0e0 !important;
     border-left-width: 5px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:6 */
 .x-panel-light-framed-outer-border-b {
-    border-bottom-color: #e0ebf3 !important;
+    border-bottom-color: #f1e0e0 !important;
     border-bottom-width: 5px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:10 */
 .x-panel-light-framed-outer-border-bl {
-    border-bottom-color: #e0ebf3 !important;
+    border-bottom-color: #f1e0e0 !important;
     border-bottom-width: 5px !important;
-    border-left-color: #e0ebf3 !important;
+    border-left-color: #f1e0e0 !important;
     border-left-width: 5px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:16 */
 .x-panel-light-framed-outer-border-r {
-    border-right-color: #e0ebf3 !important;
+    border-right-color: #f1e0e0 !important;
     border-right-width: 5px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:20 */
 .x-panel-light-framed-outer-border-rl {
-    border-right-color: #e0ebf3 !important;
+    border-right-color: #f1e0e0 !important;
     border-right-width: 5px !important;
-    border-left-color: #e0ebf3 !important;
+    border-left-color: #f1e0e0 !important;
     border-left-width: 5px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:26 */
 .x-panel-light-framed-outer-border-rb {
-    border-right-color: #e0ebf3 !important;
+    border-right-color: #f1e0e0 !important;
     border-right-width: 5px !important;
-    border-bottom-color: #e0ebf3 !important;
+    border-bottom-color: #f1e0e0 !important;
     border-bottom-width: 5px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:32 */
 .x-panel-light-framed-outer-border-rbl {
-    border-right-color: #e0ebf3 !important;
+    border-right-color: #f1e0e0 !important;
     border-right-width: 5px !important;
-    border-bottom-color: #e0ebf3 !important;
+    border-bottom-color: #f1e0e0 !important;
     border-bottom-width: 5px !important;
-    border-left-color: #e0ebf3 !important;
+    border-left-color: #f1e0e0 !important;
     border-left-width: 5px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:40 */
 .x-panel-light-framed-outer-border-t {
-    border-top-color: #e0ebf3 !important;
+    border-top-color: #f1e0e0 !important;
     border-top-width: 5px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:44 */
 .x-panel-light-framed-outer-border-tl {
-    border-top-color: #e0ebf3 !important;
+    border-top-color: #f1e0e0 !important;
     border-top-width: 5px !important;
-    border-left-color: #e0ebf3 !important;
+    border-left-color: #f1e0e0 !important;
     border-left-width: 5px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:50 */
 .x-panel-light-framed-outer-border-tb {
-    border-top-color: #e0ebf3 !important;
+    border-top-color: #f1e0e0 !important;
     border-top-width: 5px !important;
-    border-bottom-color: #e0ebf3 !important;
+    border-bottom-color: #f1e0e0 !important;
     border-bottom-width: 5px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:56 */
 .x-panel-light-framed-outer-border-tbl {
-    border-top-color: #e0ebf3 !important;
+    border-top-color: #f1e0e0 !important;
     border-top-width: 5px !important;
-    border-bottom-color: #e0ebf3 !important;
+    border-bottom-color: #f1e0e0 !important;
     border-bottom-width: 5px !important;
-    border-left-color: #e0ebf3 !important;
+    border-left-color: #f1e0e0 !important;
     border-left-width: 5px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:64 */
 .x-panel-light-framed-outer-border-tr {
-    border-top-color: #e0ebf3 !important;
+    border-top-color: #f1e0e0 !important;
     border-top-width: 5px !important;
-    border-right-color: #e0ebf3 !important;
+    border-right-color: #f1e0e0 !important;
     border-right-width: 5px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:70 */
 .x-panel-light-framed-outer-border-trl {
-    border-top-color: #e0ebf3 !important;
+    border-top-color: #f1e0e0 !important;
     border-top-width: 5px !important;
-    border-right-color: #e0ebf3 !important;
+    border-right-color: #f1e0e0 !important;
     border-right-width: 5px !important;
-    border-left-color: #e0ebf3 !important;
+    border-left-color: #f1e0e0 !important;
     border-left-width: 5px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:78 */
 .x-panel-light-framed-outer-border-trb {
-    border-top-color: #e0ebf3 !important;
+    border-top-color: #f1e0e0 !important;
     border-top-width: 5px !important;
-    border-right-color: #e0ebf3 !important;
+    border-right-color: #f1e0e0 !important;
     border-right-width: 5px !important;
-    border-bottom-color: #e0ebf3 !important;
+    border-bottom-color: #f1e0e0 !important;
     border-bottom-width: 5px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:86 */
 .x-panel-light-framed-outer-border-trbl {
-    border-color: #e0ebf3 !important;
+    border-color: #f1e0e0 !important;
     border-width: 5px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neptune/sass/src/form/field/File.scss:3 */
@@ -4740,12 +4159,12 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neptune/sass/src/grid/column/Column.scss:6 */
 .x-column-header-trigger {
-    background-color: #eff6fb;
-    border-left: 1px solid #c2c2c2;
+    background-color: #faefef;
+    border-left: 1px none #c2c2c2;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neptune/sass/src/grid/column/Column.scss:12 */
 .x-rtl.x-column-header-trigger {
-    border-right: 1px solid #c2c2c2;
+    border-right: 1px none #c2c2c2;
     border-left: 0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neptune/sass/src/grid/column/Column.scss:18 */
@@ -4754,7 +4173,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neptune/sass/src/grid/column/Column.scss:20 */
 .x-column-header-last .x-column-header-over .x-column-header-trigger {
-    border-right: 1px solid #c2c2c2;
+    border-right: 1px none #c2c2c2;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neptune/sass/src/grid/column/Column.scss:26 */
 .x-rtl.x-column-header-last {
@@ -4762,7 +4181,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neptune/sass/src/grid/column/Column.scss:28 */
 .x-rtl.x-column-header-last .x-column-header-over .x-column-header-trigger {
-    border-left: 1px solid #c2c2c2;
+    border-left: 1px none #c2c2c2;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neptune/sass/src/resizer/Resizer.scss:1 */
 .x-resizable-handle {
@@ -7561,12 +6980,6 @@
 .x-tab-navigation-top-mc {
     padding: 24px 24px 24px 24px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-tab-navigation-bottom {
     -moz-border-radius-topleft: 0;
@@ -7661,12 +7074,6 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:464 */
 .x-tab-navigation-bottom-mc {
     padding: 24px 24px 24px 24px;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-tab-navigation-left {
@@ -7763,12 +7170,6 @@
 .x-tab-navigation-left-mc {
     padding: 24px 24px 24px 24px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-tab-navigation-right {
     -moz-border-radius-topleft: 0;
@@ -7864,15 +7265,9 @@
 .x-tab-navigation-right-mc {
     padding: 24px 24px 24px 24px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, frame:0 0 0 0" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1597 */
 .x-tab-navigation {
-    border-color: #4c9dd8;
+    border-color: #c85151;
     cursor: pointer;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:1656 */
@@ -8017,7 +7412,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2121 */
 .x-tab-inner-navigation {
-    font: bold 15px/19px helvetica, arial, verdana, sans-serif;
+    font: bold 15px/19px 'Open Sans', sans-serif;
     color: #acacac;
     max-width: 100%;
 }
@@ -8072,12 +7467,12 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2218 */
 .x-tab-focus.x-tab-navigation {
-    border-color: #4c9dd8;
+    border-color: #c85151;
     background-color: transparent;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2354 */
 .x-tab-over.x-tab-navigation {
-    border-color: #60a8dc;
+    border-color: #ce6565;
     background-color: #505050;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2410 */
@@ -8094,12 +7489,12 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2466 */
 .x-tab-focus.x-tab-over.x-tab-navigation {
-    border-color: #60a8dc;
+    border-color: #ce6565;
     background-color: #505050;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2581 */
 .x-tab.x-tab-active.x-tab-navigation {
-    border-color: #add2ed;
+    border-color: #e6b0b0;
     background-color: #303030;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2637 */
@@ -8116,12 +7511,12 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2692 */
 .x-tab-focus.x-tab-active.x-tab-navigation {
-    border-color: #add2ed;
+    border-color: #e6b0b0;
     background-color: #303030;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Tab.scss:2808 */
 .x-tab.x-tab-disabled.x-tab-navigation {
-    border-color: #4c9dd8;
+    border-color: #c85151;
     background-color: transparent;
     cursor: default;
 }
@@ -8656,150 +8051,6 @@
     padding-right: 0px;
     padding-left: 15px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-focus-corners.gif), sides:url(images/tab/tab-navigation-top-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-top-focus-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-focus-corners.gif), sides:url(images/tab/tab-navigation-right-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-right-focus-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-focus-corners.gif), sides:url(images/tab/tab-navigation-bottom-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-focus-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-focus-corners.gif), sides:url(images/tab/tab-navigation-left-focus-sides.gif), frame-bg:url(images/tab/tab-navigation-left-focus-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-over-corners.gif), sides:url(images/tab/tab-navigation-top-over-sides.gif), frame-bg:url(images/tab/tab-navigation-top-over-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-over-corners.gif), sides:url(images/tab/tab-navigation-right-over-sides.gif), frame-bg:url(images/tab/tab-navigation-right-over-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-over-corners.gif), sides:url(images/tab/tab-navigation-bottom-over-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-over-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-over.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-over-corners.gif), sides:url(images/tab/tab-navigation-left-over-sides.gif), frame-bg:url(images/tab/tab-navigation-left-over-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-active-corners.gif), sides:url(images/tab/tab-navigation-top-active-sides.gif), frame-bg:url(images/tab/tab-navigation-top-active-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-active-corners.gif), sides:url(images/tab/tab-navigation-right-active-sides.gif), frame-bg:url(images/tab/tab-navigation-right-active-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-active-corners.gif), sides:url(images/tab/tab-navigation-bottom-active-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-active-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-active.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-active-corners.gif), sides:url(images/tab/tab-navigation-left-active-sides.gif), frame-bg:url(images/tab/tab-navigation-left-active-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-focus-over-corners.gif), sides:url(images/tab/tab-navigation-top-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-top-focus-over-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-focus-over-corners.gif), sides:url(images/tab/tab-navigation-right-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-right-focus-over-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-focus-over-corners.gif), sides:url(images/tab/tab-navigation-bottom-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-focus-over-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-over.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-focus-over-corners.gif), sides:url(images/tab/tab-navigation-left-focus-over-sides.gif), frame-bg:url(images/tab/tab-navigation-left-focus-over-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-focus-active-corners.gif), sides:url(images/tab/tab-navigation-top-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-top-focus-active-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-focus-active-corners.gif), sides:url(images/tab/tab-navigation-right-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-right-focus-active-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-focus-active-corners.gif), sides:url(images/tab/tab-navigation-bottom-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-focus-active-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-focus.x-tab-active.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-focus-active-corners.gif), sides:url(images/tab/tab-navigation-left-focus-active-sides.gif), frame-bg:url(images/tab/tab-navigation-left-focus-active-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-top-disabled-corners.gif), sides:url(images/tab/tab-navigation-top-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-top-disabled-fbg.gif), frame:0 0 0 0, stretch:bottom" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-right-disabled-corners.gif), sides:url(images/tab/tab-navigation-right-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-right-disabled-fbg.gif), frame:0 0 0 0, stretch:left" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-bottom-disabled-corners.gif), sides:url(images/tab/tab-navigation-bottom-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-bottom-disabled-fbg.gif), frame:0 0 0 0, stretch:top" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-disabled.x-tab-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, corners:url(images/tab/tab-navigation-left-disabled-corners.gif), sides:url(images/tab/tab-navigation-left-disabled-sides.gif), frame-bg:url(images/tab/tab-navigation-left-disabled-fbg.gif), frame:0 0 0 0, stretch:right" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Bar.scss:168 */
 .x-tab-bar-navigation {
     background-color: #404040;
@@ -8998,43 +8249,19 @@
 .x-box-scroller-plain.x-box-scroller-tab-bar-navigation.x-box-scroller-bottom {
     background-image: url(images/tab-bar/navigation-plain-scroll-bottom.png);
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:top" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:right" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-tab-bar-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:left" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:276 */
 .x-panel-navigation {
-    border-color: #157fcc;
+    border-color: #b71c1c;
     padding: 0;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:282 */
 .x-panel-header-navigation {
     font-size: 20px;
-    border: 1px solid #157fcc;
+    border: 1px solid #b71c1c;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:307 */
 .x-panel-header-navigation .x-tool-tool-el {
-    background-color: #157fcc;
+    background-color: #b71c1c;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:313 */
 .x-panel-header-navigation-horizontal {
@@ -9068,7 +8295,7 @@
     color: #fff;
     font-size: 20px;
     font-weight: bold;
-    font-family: helvetica, arial, verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 24px;
     margin: 36px;
 }
@@ -9126,24 +8353,24 @@
     color: #000;
     font-size: 13px;
     font-weight: normal;
-    font-family: helvetica, arial, verdana, sans-serif;
+    font-family: 'Open Sans', sans-serif;
     border-width: 1px;
     border-style: solid;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:676 */
 .x-panel-header-navigation {
     background-image: none;
-    background-color: #157fcc;
+    background-color: #b71c1c;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:680 */
 .x-panel-header-navigation-vertical {
     background-image: none;
-    background-color: #157fcc;
+    background-color: #b71c1c;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:685 */
 .x-rtl.x-panel-header-navigation-vertical {
     background-image: none;
-    background-color: #157fcc;
+    background-color: #b71c1c;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:738 */
 .x-panel .x-panel-header-navigation-collapsed-border-top {
@@ -9160,30 +8387,6 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:750 */
 .x-panel .x-panel-header-navigation-collapsed-border-left {
     border-right-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-navigation-top:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-navigation-bottom:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:top" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-navigation-left:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:right" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-panel-header-navigation-right:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:left" !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:786 */
 .x-panel-header-navigation-horizontal .x-tool-after-title {
@@ -9256,105 +8459,105 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:2 */
 .x-panel-navigation-outer-border-l {
-    border-left-color: #157fcc !important;
+    border-left-color: #b71c1c !important;
     border-left-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:6 */
 .x-panel-navigation-outer-border-b {
-    border-bottom-color: #157fcc !important;
+    border-bottom-color: #b71c1c !important;
     border-bottom-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:10 */
 .x-panel-navigation-outer-border-bl {
-    border-bottom-color: #157fcc !important;
+    border-bottom-color: #b71c1c !important;
     border-bottom-width: 1px !important;
-    border-left-color: #157fcc !important;
+    border-left-color: #b71c1c !important;
     border-left-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:16 */
 .x-panel-navigation-outer-border-r {
-    border-right-color: #157fcc !important;
+    border-right-color: #b71c1c !important;
     border-right-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:20 */
 .x-panel-navigation-outer-border-rl {
-    border-right-color: #157fcc !important;
+    border-right-color: #b71c1c !important;
     border-right-width: 1px !important;
-    border-left-color: #157fcc !important;
+    border-left-color: #b71c1c !important;
     border-left-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:26 */
 .x-panel-navigation-outer-border-rb {
-    border-right-color: #157fcc !important;
+    border-right-color: #b71c1c !important;
     border-right-width: 1px !important;
-    border-bottom-color: #157fcc !important;
+    border-bottom-color: #b71c1c !important;
     border-bottom-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:32 */
 .x-panel-navigation-outer-border-rbl {
-    border-right-color: #157fcc !important;
+    border-right-color: #b71c1c !important;
     border-right-width: 1px !important;
-    border-bottom-color: #157fcc !important;
+    border-bottom-color: #b71c1c !important;
     border-bottom-width: 1px !important;
-    border-left-color: #157fcc !important;
+    border-left-color: #b71c1c !important;
     border-left-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:40 */
 .x-panel-navigation-outer-border-t {
-    border-top-color: #157fcc !important;
+    border-top-color: #b71c1c !important;
     border-top-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:44 */
 .x-panel-navigation-outer-border-tl {
-    border-top-color: #157fcc !important;
+    border-top-color: #b71c1c !important;
     border-top-width: 1px !important;
-    border-left-color: #157fcc !important;
+    border-left-color: #b71c1c !important;
     border-left-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:50 */
 .x-panel-navigation-outer-border-tb {
-    border-top-color: #157fcc !important;
+    border-top-color: #b71c1c !important;
     border-top-width: 1px !important;
-    border-bottom-color: #157fcc !important;
+    border-bottom-color: #b71c1c !important;
     border-bottom-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:56 */
 .x-panel-navigation-outer-border-tbl {
-    border-top-color: #157fcc !important;
+    border-top-color: #b71c1c !important;
     border-top-width: 1px !important;
-    border-bottom-color: #157fcc !important;
+    border-bottom-color: #b71c1c !important;
     border-bottom-width: 1px !important;
-    border-left-color: #157fcc !important;
+    border-left-color: #b71c1c !important;
     border-left-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:64 */
 .x-panel-navigation-outer-border-tr {
-    border-top-color: #157fcc !important;
+    border-top-color: #b71c1c !important;
     border-top-width: 1px !important;
-    border-right-color: #157fcc !important;
+    border-right-color: #b71c1c !important;
     border-right-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:70 */
 .x-panel-navigation-outer-border-trl {
-    border-top-color: #157fcc !important;
+    border-top-color: #b71c1c !important;
     border-top-width: 1px !important;
-    border-right-color: #157fcc !important;
+    border-right-color: #b71c1c !important;
     border-right-width: 1px !important;
-    border-left-color: #157fcc !important;
+    border-left-color: #b71c1c !important;
     border-left-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:78 */
 .x-panel-navigation-outer-border-trb {
-    border-top-color: #157fcc !important;
+    border-top-color: #b71c1c !important;
     border-top-width: 1px !important;
-    border-right-color: #157fcc !important;
+    border-right-color: #b71c1c !important;
     border-right-width: 1px !important;
-    border-bottom-color: #157fcc !important;
+    border-bottom-color: #b71c1c !important;
     border-bottom-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:86 */
 .x-panel-navigation-outer-border-trbl {
-    border-color: #157fcc !important;
+    border-color: #b71c1c !important;
     border-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
@@ -9465,12 +8668,6 @@
 .x-btn-menu-medium-mc {
     padding: 1px 1px 1px 1px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-menu-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, frame-bg:url(images/btn/btn-menu-medium-fbg.gif), corners:url(images/btn/btn-menu-medium-corners.gif), sides:url(images/btn/btn-menu-medium-sides.gif)" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
 .x-btn-menu-medium {
     border-color: #ef5350;
@@ -9486,7 +8683,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:464 */
 .x-btn-inner-menu-medium {
-    font: bold 15px/18px helvetica, arial, verdana, sans-serif;
+    font: bold 15px/18px 'Open Sans', sans-serif;
     color: #fff;
     padding: 0 8px;
     max-width: 100%;
@@ -9606,9 +8803,9 @@
 .x-btn-focus.x-btn-menu-medium {
     background-image: none;
     background-color: #ef5350;
-    -webkit-box-shadow: #d7e9f6 0 1px 0px 0 inset, #d7e9f6 0 -1px 0px 0 inset, #d7e9f6 -1px 0 0px 0 inset, #d7e9f6 1px 0 0px 0 inset;
-    -moz-box-shadow: #d7e9f6 0 1px 0px 0 inset, #d7e9f6 0 -1px 0px 0 inset, #d7e9f6 -1px 0 0px 0 inset, #d7e9f6 1px 0 0px 0 inset;
-    box-shadow: #d7e9f6 0 1px 0px 0 inset, #d7e9f6 0 -1px 0px 0 inset, #d7e9f6 -1px 0 0px 0 inset, #d7e9f6 1px 0 0px 0 inset;
+    -webkit-box-shadow: #f3d8d8 0 1px 0px 0 inset, #f3d8d8 0 -1px 0px 0 inset, #f3d8d8 -1px 0 0px 0 inset, #f3d8d8 1px 0 0px 0 inset;
+    -moz-box-shadow: #f3d8d8 0 1px 0px 0 inset, #f3d8d8 0 -1px 0px 0 inset, #f3d8d8 -1px 0 0px 0 inset, #f3d8d8 1px 0 0px 0 inset;
+    box-shadow: #f3d8d8 0 1px 0px 0 inset, #f3d8d8 0 -1px 0px 0 inset, #f3d8d8 -1px 0 0px 0 inset, #f3d8d8 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:762 */
 .x-btn-menu-medium .x-btn-arrow-el {
@@ -9626,7 +8823,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:778 */
 .x-btn-menu-medium.x-arrow-focus .x-btn-arrow-el {
-    border: 1px solid #d7e9f6;
+    border: 1px solid #f3d8d8;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:785 */
 .x-btn-over.x-btn-menu-medium {
@@ -9636,9 +8833,9 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:812 */
 .x-btn-focus.x-btn-over.x-btn-menu-medium {
-    -webkit-box-shadow: #d6e7f3 0 1px 0px 0 inset, #d6e7f3 0 -1px 0px 0 inset, #d6e7f3 -1px 0 0px 0 inset, #d6e7f3 1px 0 0px 0 inset;
-    -moz-box-shadow: #d6e7f3 0 1px 0px 0 inset, #d6e7f3 0 -1px 0px 0 inset, #d6e7f3 -1px 0 0px 0 inset, #d6e7f3 1px 0 0px 0 inset;
-    box-shadow: #d6e7f3 0 1px 0px 0 inset, #d6e7f3 0 -1px 0px 0 inset, #d6e7f3 -1px 0 0px 0 inset, #d6e7f3 1px 0 0px 0 inset;
+    -webkit-box-shadow: #f0d7d7 0 1px 0px 0 inset, #f0d7d7 0 -1px 0px 0 inset, #f0d7d7 -1px 0 0px 0 inset, #f0d7d7 1px 0 0px 0 inset;
+    -moz-box-shadow: #f0d7d7 0 1px 0px 0 inset, #f0d7d7 0 -1px 0px 0 inset, #f0d7d7 -1px 0 0px 0 inset, #f0d7d7 1px 0 0px 0 inset;
+    box-shadow: #f0d7d7 0 1px 0px 0 inset, #f0d7d7 0 -1px 0px 0 inset, #f0d7d7 -1px 0 0px 0 inset, #f0d7d7 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:840 */
 .x-btn.x-btn-menu-active.x-btn-menu-medium,
@@ -9650,9 +8847,9 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:868 */
 .x-btn-focus.x-btn-menu-active.x-btn-menu-medium,
 .x-btn-focus.x-btn-pressed.x-btn-menu-medium {
-    -webkit-box-shadow: #d4e2ec 0 1px 0px 0 inset, #d4e2ec 0 -1px 0px 0 inset, #d4e2ec -1px 0 0px 0 inset, #d4e2ec 1px 0 0px 0 inset;
-    -moz-box-shadow: #d4e2ec 0 1px 0px 0 inset, #d4e2ec 0 -1px 0px 0 inset, #d4e2ec -1px 0 0px 0 inset, #d4e2ec 1px 0 0px 0 inset;
-    box-shadow: #d4e2ec 0 1px 0px 0 inset, #d4e2ec 0 -1px 0px 0 inset, #d4e2ec -1px 0 0px 0 inset, #d4e2ec 1px 0 0px 0 inset;
+    -webkit-box-shadow: #e9d5d5 0 1px 0px 0 inset, #e9d5d5 0 -1px 0px 0 inset, #e9d5d5 -1px 0 0px 0 inset, #e9d5d5 1px 0 0px 0 inset;
+    -moz-box-shadow: #e9d5d5 0 1px 0px 0 inset, #e9d5d5 0 -1px 0px 0 inset, #e9d5d5 -1px 0 0px 0 inset, #e9d5d5 1px 0 0px 0 inset;
+    box-shadow: #e9d5d5 0 1px 0px 0 inset, #e9d5d5 0 -1px 0px 0 inset, #e9d5d5 -1px 0 0px 0 inset, #e9d5d5 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:897 */
 .x-btn.x-btn-disabled.x-btn-menu-medium {
@@ -9882,54 +9079,18 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1190 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-menu-medium:after {
     border-width: 1px;
-    border-color: #d7e9f6;
+    border-color: #f3d8d8;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1204 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-over.x-btn-menu-medium:after {
     border-width: 1px;
-    border-color: #d6e7f3;
+    border-color: #f0d7d7;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1219 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-menu-active.x-btn-menu-medium:after,
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-pressed.x-btn-menu-medium:after {
     border-width: 1px;
-    border-color: #d4e2ec;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-menu-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-menu-medium-focus-corners.gif), sides:url(images/btn/btn-menu-medium-focus-sides.gif), frame-bg:url(images/btn/btn-menu-medium-focus-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-menu-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-menu-medium-over-corners.gif), sides:url(images/btn/btn-menu-medium-over-sides.gif), frame-bg:url(images/btn/btn-menu-medium-over-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-menu-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-menu-medium-focus-over-corners.gif), sides:url(images/btn/btn-menu-medium-focus-over-sides.gif), frame-bg:url(images/btn/btn-menu-medium-focus-over-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-menu-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-menu-medium-pressed-corners.gif), sides:url(images/btn/btn-menu-medium-pressed-sides.gif), frame-bg:url(images/btn/btn-menu-medium-pressed-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-menu-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-menu-medium-focus-pressed-corners.gif), sides:url(images/btn/btn-menu-medium-focus-pressed-sides.gif), frame-bg:url(images/btn/btn-menu-medium-focus-pressed-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-menu-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-menu-medium-disabled-corners.gif), sides:url(images/btn/btn-menu-medium-disabled-sides.gif), frame-bg:url(images/btn/btn-menu-medium-disabled-fbg.gif)" !important;
+    border-color: #e9d5d5;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
 .x-button-menu-medium-cell > .x-grid-cell-inner {
@@ -10048,12 +9209,6 @@
 .x-btn-menu-superUser-medium-mc {
     padding: 1px 1px 1px 1px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-menu-superUser-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, frame-bg:url(images/btn/btn-menu-superUser-medium-fbg.gif), corners:url(images/btn/btn-menu-superUser-medium-corners.gif), sides:url(images/btn/btn-menu-superUser-medium-sides.gif)" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
 .x-btn-menu-superUser-medium {
     border-color: #ffb300;
@@ -10069,7 +9224,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:464 */
 .x-btn-inner-menu-superUser-medium {
-    font: bold 15px/18px helvetica, arial, verdana, sans-serif;
+    font: bold 15px/18px 'Open Sans', sans-serif;
     color: #fff;
     padding: 0 8px;
     max-width: 100%;
@@ -10189,9 +9344,9 @@
 .x-btn-focus.x-btn-menu-superUser-medium {
     background-image: none;
     background-color: #ffb300;
-    -webkit-box-shadow: #d7e9f6 0 1px 0px 0 inset, #d7e9f6 0 -1px 0px 0 inset, #d7e9f6 -1px 0 0px 0 inset, #d7e9f6 1px 0 0px 0 inset;
-    -moz-box-shadow: #d7e9f6 0 1px 0px 0 inset, #d7e9f6 0 -1px 0px 0 inset, #d7e9f6 -1px 0 0px 0 inset, #d7e9f6 1px 0 0px 0 inset;
-    box-shadow: #d7e9f6 0 1px 0px 0 inset, #d7e9f6 0 -1px 0px 0 inset, #d7e9f6 -1px 0 0px 0 inset, #d7e9f6 1px 0 0px 0 inset;
+    -webkit-box-shadow: #f3d8d8 0 1px 0px 0 inset, #f3d8d8 0 -1px 0px 0 inset, #f3d8d8 -1px 0 0px 0 inset, #f3d8d8 1px 0 0px 0 inset;
+    -moz-box-shadow: #f3d8d8 0 1px 0px 0 inset, #f3d8d8 0 -1px 0px 0 inset, #f3d8d8 -1px 0 0px 0 inset, #f3d8d8 1px 0 0px 0 inset;
+    box-shadow: #f3d8d8 0 1px 0px 0 inset, #f3d8d8 0 -1px 0px 0 inset, #f3d8d8 -1px 0 0px 0 inset, #f3d8d8 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:762 */
 .x-btn-menu-superUser-medium .x-btn-arrow-el {
@@ -10209,7 +9364,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:778 */
 .x-btn-menu-superUser-medium.x-arrow-focus .x-btn-arrow-el {
-    border: 1px solid #d7e9f6;
+    border: 1px solid #f3d8d8;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:785 */
 .x-btn-over.x-btn-menu-superUser-medium {
@@ -10219,9 +9374,9 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:812 */
 .x-btn-focus.x-btn-over.x-btn-menu-superUser-medium {
-    -webkit-box-shadow: #d6e7f3 0 1px 0px 0 inset, #d6e7f3 0 -1px 0px 0 inset, #d6e7f3 -1px 0 0px 0 inset, #d6e7f3 1px 0 0px 0 inset;
-    -moz-box-shadow: #d6e7f3 0 1px 0px 0 inset, #d6e7f3 0 -1px 0px 0 inset, #d6e7f3 -1px 0 0px 0 inset, #d6e7f3 1px 0 0px 0 inset;
-    box-shadow: #d6e7f3 0 1px 0px 0 inset, #d6e7f3 0 -1px 0px 0 inset, #d6e7f3 -1px 0 0px 0 inset, #d6e7f3 1px 0 0px 0 inset;
+    -webkit-box-shadow: #f0d7d7 0 1px 0px 0 inset, #f0d7d7 0 -1px 0px 0 inset, #f0d7d7 -1px 0 0px 0 inset, #f0d7d7 1px 0 0px 0 inset;
+    -moz-box-shadow: #f0d7d7 0 1px 0px 0 inset, #f0d7d7 0 -1px 0px 0 inset, #f0d7d7 -1px 0 0px 0 inset, #f0d7d7 1px 0 0px 0 inset;
+    box-shadow: #f0d7d7 0 1px 0px 0 inset, #f0d7d7 0 -1px 0px 0 inset, #f0d7d7 -1px 0 0px 0 inset, #f0d7d7 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:840 */
 .x-btn.x-btn-menu-active.x-btn-menu-superUser-medium,
@@ -10233,9 +9388,9 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:868 */
 .x-btn-focus.x-btn-menu-active.x-btn-menu-superUser-medium,
 .x-btn-focus.x-btn-pressed.x-btn-menu-superUser-medium {
-    -webkit-box-shadow: #d4e2ec 0 1px 0px 0 inset, #d4e2ec 0 -1px 0px 0 inset, #d4e2ec -1px 0 0px 0 inset, #d4e2ec 1px 0 0px 0 inset;
-    -moz-box-shadow: #d4e2ec 0 1px 0px 0 inset, #d4e2ec 0 -1px 0px 0 inset, #d4e2ec -1px 0 0px 0 inset, #d4e2ec 1px 0 0px 0 inset;
-    box-shadow: #d4e2ec 0 1px 0px 0 inset, #d4e2ec 0 -1px 0px 0 inset, #d4e2ec -1px 0 0px 0 inset, #d4e2ec 1px 0 0px 0 inset;
+    -webkit-box-shadow: #e9d5d5 0 1px 0px 0 inset, #e9d5d5 0 -1px 0px 0 inset, #e9d5d5 -1px 0 0px 0 inset, #e9d5d5 1px 0 0px 0 inset;
+    -moz-box-shadow: #e9d5d5 0 1px 0px 0 inset, #e9d5d5 0 -1px 0px 0 inset, #e9d5d5 -1px 0 0px 0 inset, #e9d5d5 1px 0 0px 0 inset;
+    box-shadow: #e9d5d5 0 1px 0px 0 inset, #e9d5d5 0 -1px 0px 0 inset, #e9d5d5 -1px 0 0px 0 inset, #e9d5d5 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:897 */
 .x-btn.x-btn-disabled.x-btn-menu-superUser-medium {
@@ -10465,54 +9620,18 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1190 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-menu-superUser-medium:after {
     border-width: 1px;
-    border-color: #d7e9f6;
+    border-color: #f3d8d8;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1204 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-over.x-btn-menu-superUser-medium:after {
     border-width: 1px;
-    border-color: #d6e7f3;
+    border-color: #f0d7d7;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1219 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-menu-active.x-btn-menu-superUser-medium:after,
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-pressed.x-btn-menu-superUser-medium:after {
     border-width: 1px;
-    border-color: #d4e2ec;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-menu-superUser-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-menu-superUser-medium-focus-corners.gif), sides:url(images/btn/btn-menu-superUser-medium-focus-sides.gif), frame-bg:url(images/btn/btn-menu-superUser-medium-focus-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-menu-superUser-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-menu-superUser-medium-over-corners.gif), sides:url(images/btn/btn-menu-superUser-medium-over-sides.gif), frame-bg:url(images/btn/btn-menu-superUser-medium-over-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-menu-superUser-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-menu-superUser-medium-focus-over-corners.gif), sides:url(images/btn/btn-menu-superUser-medium-focus-over-sides.gif), frame-bg:url(images/btn/btn-menu-superUser-medium-focus-over-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-menu-superUser-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-menu-superUser-medium-pressed-corners.gif), sides:url(images/btn/btn-menu-superUser-medium-pressed-sides.gif), frame-bg:url(images/btn/btn-menu-superUser-medium-pressed-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-menu-superUser-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-menu-superUser-medium-focus-pressed-corners.gif), sides:url(images/btn/btn-menu-superUser-medium-focus-pressed-sides.gif), frame-bg:url(images/btn/btn-menu-superUser-medium-focus-pressed-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-menu-superUser-medium:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-menu-superUser-medium-disabled-corners.gif), sides:url(images/btn/btn-menu-superUser-medium-disabled-sides.gif), frame-bg:url(images/btn/btn-menu-superUser-medium-disabled-fbg.gif)" !important;
+    border-color: #e9d5d5;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
 .x-button-menu-superUser-medium-cell > .x-grid-cell-inner {
@@ -10631,12 +9750,6 @@
 .x-btn-login-small-mc {
     padding: 1px 1px 1px 1px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-login-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, frame-bg:url(images/btn/btn-login-small-fbg.gif), corners:url(images/btn/btn-login-small-corners.gif), sides:url(images/btn/btn-login-small-sides.gif)" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
 .x-btn-login-small {
     border-color: #4caf50;
@@ -10652,7 +9765,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:464 */
 .x-btn-inner-login-small {
-    font: bold 12px/16px helvetica, arial, verdana, sans-serif;
+    font: bold 12px/16px 'Open Sans', sans-serif;
     color: #fff;
     padding: 0 5px;
     max-width: 100%;
@@ -10772,9 +9885,9 @@
 .x-btn-focus.x-btn-login-small {
     background-image: none;
     background-color: #4caf50;
-    -webkit-box-shadow: #d7e9f6 0 1px 0px 0 inset, #d7e9f6 0 -1px 0px 0 inset, #d7e9f6 -1px 0 0px 0 inset, #d7e9f6 1px 0 0px 0 inset;
-    -moz-box-shadow: #d7e9f6 0 1px 0px 0 inset, #d7e9f6 0 -1px 0px 0 inset, #d7e9f6 -1px 0 0px 0 inset, #d7e9f6 1px 0 0px 0 inset;
-    box-shadow: #d7e9f6 0 1px 0px 0 inset, #d7e9f6 0 -1px 0px 0 inset, #d7e9f6 -1px 0 0px 0 inset, #d7e9f6 1px 0 0px 0 inset;
+    -webkit-box-shadow: #f3d8d8 0 1px 0px 0 inset, #f3d8d8 0 -1px 0px 0 inset, #f3d8d8 -1px 0 0px 0 inset, #f3d8d8 1px 0 0px 0 inset;
+    -moz-box-shadow: #f3d8d8 0 1px 0px 0 inset, #f3d8d8 0 -1px 0px 0 inset, #f3d8d8 -1px 0 0px 0 inset, #f3d8d8 1px 0 0px 0 inset;
+    box-shadow: #f3d8d8 0 1px 0px 0 inset, #f3d8d8 0 -1px 0px 0 inset, #f3d8d8 -1px 0 0px 0 inset, #f3d8d8 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:762 */
 .x-btn-login-small .x-btn-arrow-el {
@@ -10792,7 +9905,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:778 */
 .x-btn-login-small.x-arrow-focus .x-btn-arrow-el {
-    border: 1px solid #d7e9f6;
+    border: 1px solid #f3d8d8;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:785 */
 .x-btn-over.x-btn-login-small {
@@ -10802,9 +9915,9 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:812 */
 .x-btn-focus.x-btn-over.x-btn-login-small {
-    -webkit-box-shadow: #d6e7f3 0 1px 0px 0 inset, #d6e7f3 0 -1px 0px 0 inset, #d6e7f3 -1px 0 0px 0 inset, #d6e7f3 1px 0 0px 0 inset;
-    -moz-box-shadow: #d6e7f3 0 1px 0px 0 inset, #d6e7f3 0 -1px 0px 0 inset, #d6e7f3 -1px 0 0px 0 inset, #d6e7f3 1px 0 0px 0 inset;
-    box-shadow: #d6e7f3 0 1px 0px 0 inset, #d6e7f3 0 -1px 0px 0 inset, #d6e7f3 -1px 0 0px 0 inset, #d6e7f3 1px 0 0px 0 inset;
+    -webkit-box-shadow: #f0d7d7 0 1px 0px 0 inset, #f0d7d7 0 -1px 0px 0 inset, #f0d7d7 -1px 0 0px 0 inset, #f0d7d7 1px 0 0px 0 inset;
+    -moz-box-shadow: #f0d7d7 0 1px 0px 0 inset, #f0d7d7 0 -1px 0px 0 inset, #f0d7d7 -1px 0 0px 0 inset, #f0d7d7 1px 0 0px 0 inset;
+    box-shadow: #f0d7d7 0 1px 0px 0 inset, #f0d7d7 0 -1px 0px 0 inset, #f0d7d7 -1px 0 0px 0 inset, #f0d7d7 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:840 */
 .x-btn.x-btn-menu-active.x-btn-login-small,
@@ -10816,9 +9929,9 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:868 */
 .x-btn-focus.x-btn-menu-active.x-btn-login-small,
 .x-btn-focus.x-btn-pressed.x-btn-login-small {
-    -webkit-box-shadow: #d4e2ec 0 1px 0px 0 inset, #d4e2ec 0 -1px 0px 0 inset, #d4e2ec -1px 0 0px 0 inset, #d4e2ec 1px 0 0px 0 inset;
-    -moz-box-shadow: #d4e2ec 0 1px 0px 0 inset, #d4e2ec 0 -1px 0px 0 inset, #d4e2ec -1px 0 0px 0 inset, #d4e2ec 1px 0 0px 0 inset;
-    box-shadow: #d4e2ec 0 1px 0px 0 inset, #d4e2ec 0 -1px 0px 0 inset, #d4e2ec -1px 0 0px 0 inset, #d4e2ec 1px 0 0px 0 inset;
+    -webkit-box-shadow: #e9d5d5 0 1px 0px 0 inset, #e9d5d5 0 -1px 0px 0 inset, #e9d5d5 -1px 0 0px 0 inset, #e9d5d5 1px 0 0px 0 inset;
+    -moz-box-shadow: #e9d5d5 0 1px 0px 0 inset, #e9d5d5 0 -1px 0px 0 inset, #e9d5d5 -1px 0 0px 0 inset, #e9d5d5 1px 0 0px 0 inset;
+    box-shadow: #e9d5d5 0 1px 0px 0 inset, #e9d5d5 0 -1px 0px 0 inset, #e9d5d5 -1px 0 0px 0 inset, #e9d5d5 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:897 */
 .x-btn.x-btn-disabled.x-btn-login-small {
@@ -11048,54 +10161,18 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1190 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-login-small:after {
     border-width: 1px;
-    border-color: #d7e9f6;
+    border-color: #f3d8d8;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1204 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-over.x-btn-login-small:after {
     border-width: 1px;
-    border-color: #d6e7f3;
+    border-color: #f0d7d7;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1219 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-menu-active.x-btn-login-small:after,
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-pressed.x-btn-login-small:after {
     border-width: 1px;
-    border-color: #d4e2ec;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-login-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-login-small-focus-corners.gif), sides:url(images/btn/btn-login-small-focus-sides.gif), frame-bg:url(images/btn/btn-login-small-focus-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-login-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-login-small-over-corners.gif), sides:url(images/btn/btn-login-small-over-sides.gif), frame-bg:url(images/btn/btn-login-small-over-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-login-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-login-small-focus-over-corners.gif), sides:url(images/btn/btn-login-small-focus-over-sides.gif), frame-bg:url(images/btn/btn-login-small-focus-over-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-login-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-login-small-pressed-corners.gif), sides:url(images/btn/btn-login-small-pressed-sides.gif), frame-bg:url(images/btn/btn-login-small-pressed-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-login-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-login-small-focus-pressed-corners.gif), sides:url(images/btn/btn-login-small-focus-pressed-sides.gif), frame-bg:url(images/btn/btn-login-small-focus-pressed-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-login-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-login-small-disabled-corners.gif), sides:url(images/btn/btn-login-small-disabled-sides.gif), frame-bg:url(images/btn/btn-login-small-disabled-fbg.gif)" !important;
+    border-color: #e9d5d5;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
 .x-button-login-small-cell > .x-grid-cell-inner {
@@ -11214,12 +10291,6 @@
 .x-btn-logout-small-mc {
     padding: 1px 1px 1px 1px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-logout-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, frame-bg:url(images/btn/btn-logout-small-fbg.gif), corners:url(images/btn/btn-logout-small-corners.gif), sides:url(images/btn/btn-logout-small-sides.gif)" !important;
-}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:445 */
 .x-btn-logout-small {
     border-color: #607d8b;
@@ -11235,7 +10306,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:464 */
 .x-btn-inner-logout-small {
-    font: bold 12px/16px helvetica, arial, verdana, sans-serif;
+    font: bold 12px/16px 'Open Sans', sans-serif;
     color: #fff;
     padding: 0 5px;
     max-width: 100%;
@@ -11355,9 +10426,9 @@
 .x-btn-focus.x-btn-logout-small {
     background-image: none;
     background-color: #607d8b;
-    -webkit-box-shadow: #d7e9f6 0 1px 0px 0 inset, #d7e9f6 0 -1px 0px 0 inset, #d7e9f6 -1px 0 0px 0 inset, #d7e9f6 1px 0 0px 0 inset;
-    -moz-box-shadow: #d7e9f6 0 1px 0px 0 inset, #d7e9f6 0 -1px 0px 0 inset, #d7e9f6 -1px 0 0px 0 inset, #d7e9f6 1px 0 0px 0 inset;
-    box-shadow: #d7e9f6 0 1px 0px 0 inset, #d7e9f6 0 -1px 0px 0 inset, #d7e9f6 -1px 0 0px 0 inset, #d7e9f6 1px 0 0px 0 inset;
+    -webkit-box-shadow: #f3d8d8 0 1px 0px 0 inset, #f3d8d8 0 -1px 0px 0 inset, #f3d8d8 -1px 0 0px 0 inset, #f3d8d8 1px 0 0px 0 inset;
+    -moz-box-shadow: #f3d8d8 0 1px 0px 0 inset, #f3d8d8 0 -1px 0px 0 inset, #f3d8d8 -1px 0 0px 0 inset, #f3d8d8 1px 0 0px 0 inset;
+    box-shadow: #f3d8d8 0 1px 0px 0 inset, #f3d8d8 0 -1px 0px 0 inset, #f3d8d8 -1px 0 0px 0 inset, #f3d8d8 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:762 */
 .x-btn-logout-small .x-btn-arrow-el {
@@ -11375,7 +10446,7 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:778 */
 .x-btn-logout-small.x-arrow-focus .x-btn-arrow-el {
-    border: 1px solid #d7e9f6;
+    border: 1px solid #f3d8d8;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:785 */
 .x-btn-over.x-btn-logout-small {
@@ -11385,9 +10456,9 @@
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:812 */
 .x-btn-focus.x-btn-over.x-btn-logout-small {
-    -webkit-box-shadow: #d6e7f3 0 1px 0px 0 inset, #d6e7f3 0 -1px 0px 0 inset, #d6e7f3 -1px 0 0px 0 inset, #d6e7f3 1px 0 0px 0 inset;
-    -moz-box-shadow: #d6e7f3 0 1px 0px 0 inset, #d6e7f3 0 -1px 0px 0 inset, #d6e7f3 -1px 0 0px 0 inset, #d6e7f3 1px 0 0px 0 inset;
-    box-shadow: #d6e7f3 0 1px 0px 0 inset, #d6e7f3 0 -1px 0px 0 inset, #d6e7f3 -1px 0 0px 0 inset, #d6e7f3 1px 0 0px 0 inset;
+    -webkit-box-shadow: #f0d7d7 0 1px 0px 0 inset, #f0d7d7 0 -1px 0px 0 inset, #f0d7d7 -1px 0 0px 0 inset, #f0d7d7 1px 0 0px 0 inset;
+    -moz-box-shadow: #f0d7d7 0 1px 0px 0 inset, #f0d7d7 0 -1px 0px 0 inset, #f0d7d7 -1px 0 0px 0 inset, #f0d7d7 1px 0 0px 0 inset;
+    box-shadow: #f0d7d7 0 1px 0px 0 inset, #f0d7d7 0 -1px 0px 0 inset, #f0d7d7 -1px 0 0px 0 inset, #f0d7d7 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:840 */
 .x-btn.x-btn-menu-active.x-btn-logout-small,
@@ -11399,9 +10470,9 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:868 */
 .x-btn-focus.x-btn-menu-active.x-btn-logout-small,
 .x-btn-focus.x-btn-pressed.x-btn-logout-small {
-    -webkit-box-shadow: #d4e2ec 0 1px 0px 0 inset, #d4e2ec 0 -1px 0px 0 inset, #d4e2ec -1px 0 0px 0 inset, #d4e2ec 1px 0 0px 0 inset;
-    -moz-box-shadow: #d4e2ec 0 1px 0px 0 inset, #d4e2ec 0 -1px 0px 0 inset, #d4e2ec -1px 0 0px 0 inset, #d4e2ec 1px 0 0px 0 inset;
-    box-shadow: #d4e2ec 0 1px 0px 0 inset, #d4e2ec 0 -1px 0px 0 inset, #d4e2ec -1px 0 0px 0 inset, #d4e2ec 1px 0 0px 0 inset;
+    -webkit-box-shadow: #e9d5d5 0 1px 0px 0 inset, #e9d5d5 0 -1px 0px 0 inset, #e9d5d5 -1px 0 0px 0 inset, #e9d5d5 1px 0 0px 0 inset;
+    -moz-box-shadow: #e9d5d5 0 1px 0px 0 inset, #e9d5d5 0 -1px 0px 0 inset, #e9d5d5 -1px 0 0px 0 inset, #e9d5d5 1px 0 0px 0 inset;
+    box-shadow: #e9d5d5 0 1px 0px 0 inset, #e9d5d5 0 -1px 0px 0 inset, #e9d5d5 -1px 0 0px 0 inset, #e9d5d5 1px 0 0px 0 inset;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:897 */
 .x-btn.x-btn-disabled.x-btn-logout-small {
@@ -11631,54 +10702,18 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1190 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-logout-small:after {
     border-width: 1px;
-    border-color: #d7e9f6;
+    border-color: #f3d8d8;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1204 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-over.x-btn-logout-small:after {
     border-width: 1px;
-    border-color: #d6e7f3;
+    border-color: #f0d7d7;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1219 */
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-menu-active.x-btn-logout-small:after,
 .x-nbr .x-segmented-button-item.x-btn-focus.x-btn-pressed.x-btn-logout-small:after {
     border-width: 1px;
-    border-color: #d4e2ec;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-logout-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-logout-small-focus-corners.gif), sides:url(images/btn/btn-logout-small-focus-sides.gif), frame-bg:url(images/btn/btn-logout-small-focus-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-over.x-btn-logout-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-logout-small-over-corners.gif), sides:url(images/btn/btn-logout-small-over-sides.gif), frame-bg:url(images/btn/btn-logout-small-over-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-over.x-btn-logout-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-logout-small-focus-over-corners.gif), sides:url(images/btn/btn-logout-small-focus-over-sides.gif), frame-bg:url(images/btn/btn-logout-small-focus-over-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-pressed.x-btn-logout-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-logout-small-pressed-corners.gif), sides:url(images/btn/btn-logout-small-pressed-sides.gif), frame-bg:url(images/btn/btn-logout-small-pressed-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-focus.x-btn-pressed.x-btn-logout-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-logout-small-focus-pressed-corners.gif), sides:url(images/btn/btn-logout-small-focus-pressed-sides.gif), frame-bg:url(images/btn/btn-logout-small-focus-pressed-fbg.gif)" !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/slicer.scss:83 */
-.x-cmd-slicer.x-btn-disabled.x-btn-logout-small:before {
-    /*<if slicer>*/
-    display: none;
-    content: "x-slicer:, stretch:bottom, frame:3px 3px 3px 3px, corners:url(images/btn/btn-logout-small-disabled-corners.gif), sides:url(images/btn/btn-logout-small-disabled-sides.gif), frame-bg:url(images/btn/btn-logout-small-disabled-fbg.gif)" !important;
+    border-color: #e9d5d5;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/button/Button.scss:1246 */
 .x-button-logout-small-cell > .x-grid-cell-inner {
@@ -11689,92 +10724,143 @@
 .x-button-logout-small-cell > .x-grid-cell-inner >.x-btn-logout-small {
     vertical-align: top;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:91 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:99 */
 .x-title-icon-navigation {
     font-family: FontAwesome;
     color: #fff;
     font-size: 24px;
     line-height: 24px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:98 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:106 */
 .x-tab-icon-el-navigation {
     font-family: FontAwesome;
     color: #acacac;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:102 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:110 */
 .x-tab-over .x-tab-icon-el-navigation {
     color: #c4c4c4;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:106 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:114 */
 .x-tab-active .x-tab-icon-el-navigation {
     color: #fff;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:111 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:119 */
 .x-panel-header-title-navigation > .x-title-text-navigation:after {
     top: 30px;
     right: -24px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:116 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:124 */
 .menu {
     background: #ffebee;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:122 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:130 */
 .x-form-text {
     height: 26px !important;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:125 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:133 */
 .x-form-text-default.x-form-textarea {
     height: 100% !important;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:129 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:137 */
 .x-btn {
     box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12) !important;
     height: 30px;
+    cursor: pointer !important;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:134 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:143 */
 .label-primary {
     color: #126daf;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:138 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:147 */
 .label-info {
-    color: #157fcc;
+    color: #b71c1c;
     font-weight: bold;
     font-size: 18px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:144 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:153 */
 .icon-user {
     background-image: url("images/user.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:151 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:160 */
+.icon-confirm {
+    background-image: url("images/confirm.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:167 */
+.icon-add {
+    background-image: url("images/add.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:173 */
+.icon-delete {
+    background-image: url("images/delete.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:179 */
+.icon-notification {
+    background-image: url("images/notification.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:185 */
+.icon-print {
+    background-image: url("images/print.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:191 */
 .icon-phone {
     background-image: url("images/phone.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:158 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:198 */
+.icon-turni {
+    background-image: url("images/calendar.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:204 */
+.icon-turni-white {
+    background-image: url("images/calendar_white.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:211 */
+.icon-delete,
+.icon-add,
+.icon-confirm,
+.icon-print,
+.icon-24 {
+    background-size: 24px 24px;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:219 */
 .icon-faldone {
     background-image: url("images/faldone.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:164 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:225 */
 .icon-email {
     background-image: url("images/email.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:170 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:231 */
 .row-height-70 {
     height: 70px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:174 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:235 */
 .row-margin .x-grid-cell {
     margin-top: 5px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:178 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:239 */
 .table {
     border-radius: 3px;
     display: table;
@@ -11782,8 +10868,46 @@
     width: 100%;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:186 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:247 */
 .table-inner {
     display: table-cell;
     vertical-align: middle;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:252 */
+.no-background {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:258 */
+.x-mask {
+    position: fixed !important;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:262 */
+.x-mask-msg {
+    border: none !important;
+    background: #fff !important;
+    z-index: 999999 !important;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:267 */
+.x-mask-msg-text {
+    height: 200px;
+    width: 200px;
+    z-index: 999999 !important;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:273 */
+.shadow {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:278 */
+.grassetto {
+    font-weight: bold;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:282 */
+.x-fieldset-header-text {
+    font-size: 16px !important;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:288 */
+.x-datepicker-selected div.x-datepicker-date {
+    border-radius: 50%;
 }

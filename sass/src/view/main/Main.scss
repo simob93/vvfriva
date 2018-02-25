@@ -2,6 +2,14 @@
  * Generates a set of style rules for the "navigation" tab UI.
  */
  $base-gradient: none;
+ $loadmask-msg-inner-icon: 'myLoading';
+ $tip-background-color: #fff;
+ $tip-border-color: #fff;
+ $tip-body-padding: 8px;
+ $base-color: #B71C1C;
+ $tab-font-size: 16px;
+ $font-family: 'Open Sans', sans-serif;
+ $grid-column-header-border-style: none;
 
 @include extjs-tab-panel-ui(
     $ui: 'navigation',
@@ -128,7 +136,8 @@
 
 .x-btn {
 	box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12) !important;
-	height: 30px;	
+	height: 30px;
+	cursor: pointer !important;	
 }
 
 .label-primary {
@@ -148,11 +157,63 @@
     
 }
 
+.icon-confirm {
+	background-image: url("images/confirm.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.icon-add {
+	background-image: url("images/add.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-delete {
+	background-image: url("images/delete.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-notification {
+	background-image: url("images/notification.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-print {
+	background-image: url("images/print.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
 .icon-phone {
 	background-image: url("images/phone.svg");
 	background-repeat: no-repeat;
     background-position: center;
     
+}
+
+.icon-turni {
+	background-image: url("images/calendar.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-turni-white {
+	background-image: url("images/calendar_white.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.icon-delete,
+.icon-add,
+.icon-confirm,
+.icon-print,
+.icon-24 {
+	 background-size: 24px 24px;
 }
 
 .icon-faldone {
@@ -187,3 +248,45 @@
 	display: table-cell;
 	vertical-align: middle;
 }
+
+.no-background {
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+.x-mask {
+	position: fixed !important;
+}
+
+.x-mask-msg {
+	border: none !important;
+	background: #fff !important;
+	z-index: 999999 !important;
+}
+.x-mask-msg-text {
+	height: 200px;
+	width: 200px;
+	z-index: 999999 !important;
+}
+
+.shadow {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	
+}
+
+.grassetto {
+	font-weight: bold;
+}
+
+.x-fieldset-header-text {
+	font-size: 16px !important; 
+	
+}
+
+
+.x-datepicker-selected div.x-datepicker-date {
+	border-radius: 50%;
+}
+
+
