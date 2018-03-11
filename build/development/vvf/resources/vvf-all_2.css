@@ -6892,6 +6892,611 @@
 .x-fa:before {
     font-family: FontAwesome !important;
 }
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/sass/src/Gauge.scss:1 */
+.x-gauge-text {
+    position: absolute;
+    text-align: center;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/sass/var/Gauge.scss:28 */
+.x-gauge .x-gauge-track {
+    fill: #f5f5f5;
+    fill-opacity: 1;
+    stroke: #b71c1c;
+    stroke-opacity: 1;
+    stroke-width: 1;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/sass/var/Gauge.scss:36 */
+.x-gauge .x-gauge-value {
+    fill: #ecc3c3;
+    fill-opacity: 1;
+    stroke: none;
+    stroke-opacity: 1;
+    stroke-width: 1;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/DataView/DragSelector.scss:1 */
+.x-view-selector {
+    position: absolute;
+    border: 1px dotted #39b;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/Explorer.scss:1 */
+.x-explorer-view {
+    background-color: #fff;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/Explorer.scss:5 */
+.x-explorer-item {
+    float: left;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/Explorer.scss:9 */
+.x-explorer-item-text {
+    text-align: center;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/Explorer.scss:13 */
+.x-explorer-node-icon {
+    height: 100px;
+    width: 100px;
+    background: url(ux/images/explorer/node.png);
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/Explorer.scss:19 */
+.x-explorer-leaf-icon {
+    background: url(ux/images/explorer/leaf.png);
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:2 */
+.x-grouptabpanel {
+    /* Main GroupTabPanel style */
+    background-color: #4e78b1;
+    border: solid 15px #4e78b1;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:9 */
+.x-grouptabcontainer {
+    /* End of GroupTabPanel style */
+    /* Card Layout container */
+    background-color: white;
+    border-top: 1px solid #d9d9d9 !important;
+    border-bottom: 1px solid #d9d9d9 !important;
+    border-right: 1px solid #d9d9d9 !important;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:17 */
+.x-grouptabpanel .x-grouptab .x-grid-cell-inner {
+    /* End of Card Layout container */
+    font-family: tahoma, arial, sans-serif;
+    text-decoration: none!important;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:22 */
+.x-grouptabpanel .x-grouptab-first .x-grid-cell-inner {
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: bold;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:28 */
+.x-grouptabbar .x-grid-row .x-grid-cell {
+    background-color: transparent;
+    padding-left: 6px;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:33 */
+.x-grouptabbar .x-grid-cell-inner {
+    color: #dfe8f6;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:37 */
+.x-grouptabpanel .x-active-group .x-grid-cell-inner {
+    color: #395b8e;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:41 */
+.x-grouptabbar .x-grouptab {
+    line-height: 24px;
+    background-color: transparent;
+    font-size: 12px;
+    position: relative;
+    padding-left: 6px;
+    padding-bottom: 2px;
+    overflow: visible;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:51 */
+.x-grouptabbar .x-grouptab-first {
+    padding-top: 6px;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:55 */
+.x-grouptabbar .x-grouptab-last {
+    margin-bottom: 3px;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:59 */
+.x-grouptabbar .x-active-tab .x-grid-cell-inner {
+    background-color: #edeef0;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:63 */
+.x-grouptabbar .x-tree-elbow-line,
+.x-grouptabbar .x-tree-elbow-empty {
+    width: 0;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:68 */
+.x-grouptabbar .x-active-group .x-grouptab {
+    background-color: white!important;
+    border: 0 none!important;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:73 */
+.x-grouptabbar .x-active-group .x-grouptab-first {
+    border-top: 1px solid #d9d9d9!important;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:77 */
+.x-grouptabbar .x-active-group .x-grouptab-center {
+    border-left: 1px solid #d9d9d9!important;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:81 */
+.x-grouptabbar .x-active-group .x-grouptab-last {
+    border-bottom: 1px solid #d9d9d9!important;
+    padding-bottom: 3px;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:86 */
+.x-grouptabbar .x-active-group .x-grouptab-first,
+.x-grouptabbar .x-active-group .x-grouptab-last {
+    border-left: 1px solid #d9d9d9!important;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:91 */
+.x-grouptab-cell {
+    border: 0 none!important;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:96 */
+.x-grouptabbar .x-grouptabs-corner {
+    /* Tab corners */
+    background-image: url(ux/images/grouptabpanel/corners.gif);
+    display: none;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    font-size: 1px;
+    line-height: 6px;
+    overflow: hidden;
+    zoom: 1;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:108 */
+.x-grouptabbar .x-grouptabs-corner {
+    display: none;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:112 */
+.x-grouptabbar .x-active-group .x-grouptab-first .x-grouptabs-corner-top-left,
+.x-grouptabbar .x-active-group .x-grouptab-last .x-grouptabs-corner-bottom-left {
+    display: block;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:117 */
+.x-grouptabbar .x-grouptabs-corner-top-left {
+    background-position: top left;
+    left: 0;
+    top: 0;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:121 */
+.x-grouptabbar .x-grouptabs-corner-bottom-left {
+    background-position: bottom left;
+    left: 0;
+    bottom: 0;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:125 */
+.x-grouptabbar .x-grouptabs-corner-top-right {
+    background-position: top right;
+    right: 0;
+    top: 0;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:129 */
+.x-grouptabbar .x-grouptabs-corner-bottom-right {
+    background-position: bottom right;
+    right: 0;
+    bottom: 0;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:133 */
+.x-grouptabbar .x-active-group .x-grouptabs-corner-bottom-left {
+    bottom: -4px;
+    left: -4px;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:136 */
+.x-grouptabbar .x-active-group .x-grouptabs-corner-bottom-right {
+    bottom: -4px;
+    right: -4px;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:139 */
+.x-grouptabbar .x-active-group .x-grouptabs-corner-top-left {
+    top: -4px;
+    left: -4px;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:142 */
+.x-grouptabbar .x-active-group .x-grouptabs-corner-top-right {
+    top: -4px;
+    right: -4px;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:146 */
+.x-grouptabbar .x-tree-panel .x-grid-cell {
+    overflow: visible;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:150 */
+.x-grouptabbar .x-panel-body {
+    background-color: #4e78b1;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:154 */
+.x-grouptabbar {
+    top: 0 !important;
+    margin-top: -1px !important;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:159 */
+.x-grouptabbar .x-grouptab .x-tree-icon-parent {
+    display: none;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:163 */
+.x-grouptabbar .x-grouptab .x-tree-elbow,
+.x-grouptabbar .x-grouptab .x-tree-elbow-end {
+    display: none;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:168 */
+.x-grouptabbar .x-grouptab .x-tree-expander {
+    background-image: url(ux/images/grouptabpanel/plus.gif);
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/GroupTabPanel.scss:172 */
+.x-grouptabbar .x-grid-tree-node-expanded .x-grouptab .x-tree-expander {
+    background-image: url(ux/images/grouptabpanel/minus.gif);
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/statusbar/StatusBar.scss:1 */
+.x-statusbar .x-status-text {
+    cursor: default;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/statusbar/StatusBar.scss:4 */
+.x-statusbar .x-status-busy {
+    padding-left: 25px !important;
+    background: transparent no-repeat 3px 0;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/statusbar/StatusBar.scss:9 */
+.x-statusbar .x-status-text-panel {
+    border: 0 none;
+    padding: 2px 8px 2px 5px;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/statusbar/StatusBar.scss:14 */
+.x-statusbar .x-status-error {
+    cursor: pointer;
+    padding-left: 25px !important;
+    background: transparent no-repeat 3px 0;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/statusbar/StatusBar.scss:19 */
+.x-statusbar .x-status-valid {
+    padding-left: 25px !important;
+    background: transparent no-repeat 3px 0;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/statusbar/StatusBar.scss:23 */
+.x-status-error-list {
+    font: 11px tahoma, arial, verdana, sans-serif;
+    position: absolute;
+    z-index: 9999;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    padding: 5px 10px;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/statusbar/StatusBar.scss:33 */
+.x-status-error-list li {
+    cursor: pointer;
+    list-style: disc;
+    margin-left: 10px;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/statusbar/StatusBar.scss:38 */
+.x-status-error-list li a {
+    text-decoration: none;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/statusbar/StatusBar.scss:41 */
+.x-status-error-list li a:hover {
+    text-decoration: underline;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/statusbar/StatusBar.scss:45 */
+.x-statusbar .x-status-busy {
+    background-image: url(ux/images/statusbar/loading.gif);
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/statusbar/StatusBar.scss:49 */
+.x-statusbar .x-status-error {
+    color: #c33;
+    background-image: url(ux/images/statusbar/exclamation.gif);
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/statusbar/StatusBar.scss:53 */
+.x-statusbar .x-status-valid {
+    background-image: url(ux/images/statusbar/accept.png);
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/statusbar/StatusBar.scss:56 */
+.x-status-error-list {
+    border-color: #c33;
+    background: white;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/statusbar/StatusBar.scss:60 */
+.x-status-error-list li a {
+    color: #15428b;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/LiveSearchGridPanel.scss:1 */
+.x-livesearch-match {
+    font-weight: bold;
+    background-color: yellow;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/TabScrollerMenu.scss:1 */
+.x-tab-tabmenu-right {
+    background: transparent url(ux/images/tabscrollermenu/menu.gif) no-repeat 0 0;
+    width: 18px;
+    height: 20px;
+    cursor: pointer;
+    zoom: 1;
+    z-index: 6;
+    float: right;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/TabScrollerMenu.scss:10 */
+.x-tab-tabmenu-over {
+    background-position: -18px 0;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/TabScrollerMenu.scss:13 */
+.x-tab-tabmenu-disabled {
+    background-position: 0 0;
+    opacity: 0.5;
+    -moz-opacity: 0.5;
+    filter: opacity=50;
+    cursor: default;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Selector.scss:2 */
+.x-colorpicker {
+    /* The actual pop window with the color picker components */
+    overflow: visible;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Selector.scss:8 */
+.x-colorpicker >.x-box-inner {
+    overflow: visible;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Selector.scss:13 */
+.x-colorpicker .x-form-item-label {
+    text-align: center;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Selector.scss:18 */
+.x-colopicker-escape-overflow {
+    overflow: visible;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Selector.scss:21 */
+.x-colopicker-escape-overflow >.x-box-inner {
+    overflow: visible;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Selector.scss:28 */
+.x-colorpicker-colormap {
+    background-image: url(ux/images/colorpick/map_gradient.png);
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Selector.scss:35 */
+.x-colorpicker-colormap-draghandle-container {
+    overflow: visible;
+    z-index: 1;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Selector.scss:41 */
+.x-colorpicker-colormap-blender {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Selector.scss:49 */
+.x-colorpicker-colormap-draghandle {
+    width: 15px;
+    height: 15px;
+    position: relative;
+    left: -7px;
+    top: -7px;
+    background-image: url(ux/images/colorpick/drag_circle.png);
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Selector.scss:60 */
+.x-colorpicker-draghandle-container {
+    width: 20px;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Selector.scss:63 */
+.x-colorpicker-draghandle-container .x-autocontainer-outerCt {
+    height: 100%;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Selector.scss:68 */
+.x-colorpicker-draghandle {
+    width: 32px;
+    height: 9px;
+    position: relative;
+    left: -6px;
+    top: -4px;
+    background-image: url(ux/images/colorpick/pickerslider.png);
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Selector.scss:79 */
+.x-colorpicker-hue {
+    background-image: url(ux/images/colorpick/huegradient.png);
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Selector.scss:86 */
+.x-colorpicker-hue-gradient {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Selector.scss:95 */
+.x-colorpicker-saturation .x-colorpicker-draghandle-container {
+    background: -moz-linear-gradient(top, #fff 0%, #000 100%);
+    /* FF3.6+ */
+    background: -webkit-linear-gradient(top, #fff 0%, #000 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #fff 0%, #000 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #fff 0%, #000 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, #fff 0%, #000 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#000000',GradientType=0 );
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Selector.scss:106 */
+.x-colorpicker-value .x-colorpicker-draghandle-container {
+    background: -moz-linear-gradient(top, red 0%, #000 100%);
+    /* FF3.6+ */
+    background: -webkit-linear-gradient(top, red 0%, #000 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, red 0%, #000 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, red 0%, #000 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, red 0%, #000 100%);
+    /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff0000', endColorstr='#000000',GradientType=0 );
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Selector.scss:117 */
+.x-colorpicker-alpha .x-colorpicker-draghandle-container {
+    background-image: url(ux/images/colorpick/checkerboard.png);
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Selector.scss:123 */
+.x-colorpicker-preview {
+    background-image: url(ux/images/colorpick/checkerboard.png);
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Button.scss:2 */
+.x-colorpicker-button {
+    position: relative;
+    border: 1px solid gray;
+    background-image: url(ux/images/colorpick/checkerboard.png);
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Field.scss:3 */
+.x-colorpicker-field .x-form-item-body {
+    position: relative;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Field.scss:7 */
+.x-colorpicker-field input {
+    padding-left: 26px;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Field.scss:12 */
+.x-colorpicker-field-swatch {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 4px;
+    background-image: url(ux/images/colorpick/checkerboard.png);
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/colorpick/Field.scss:25 */
+.x-colorpicker-field-swatch-inner {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/form/ItemSelector.scss:3 */
+.x-form-multiselect-body .x-boundlist .x-mask {
+    /* Styles used by Ext.ux.form.ItemSelector */
+    background: none;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/form/ItemSelector.scss:7 */
+.x-form-itemselector-body .x-form-item {
+    margin: 0;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/form/ItemSelector.scss:11 */
+.x-form-itemselector-top {
+    background-image: url(ux/images/itemselector/top.gif);
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/form/ItemSelector.scss:14 */
+.x-form-itemselector-up {
+    background-image: url(ux/images/itemselector/up.gif);
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/form/ItemSelector.scss:17 */
+.x-form-itemselector-add {
+    background-image: url(ux/images/itemselector/right.gif);
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/form/ItemSelector.scss:20 */
+.x-form-itemselector-remove {
+    background-image: url(ux/images/itemselector/left.gif);
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/form/ItemSelector.scss:23 */
+.x-form-itemselector-down {
+    background-image: url(ux/images/itemselector/down.gif);
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/form/ItemSelector.scss:26 */
+.x-form-itemselector-bottom {
+    background-image: url(ux/images/itemselector/bottom.gif);
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/grid/SubTable.scss:1 */
+.x-grid-subtable {
+    border-collapse: collapse;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/grid/SubTable.scss:5 */
+tr.x-grid-subtable-row {
+    background-color: #fff;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/grid/SubTable.scss:9 */
+.x-grid-subtable-header {
+    border: 1px none #c2c2c2;
+    color: #666;
+    font: bold 13px/15px 'Open Sans', sans-serif;
+    background-image: none;
+    background-color: #f5f5f5;
+    padding: 6px 10px 6px 10px;
+    text-overflow: ellipsis;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/grid/SubTable.scss:27 */
+.x-grid-subtable-cell {
+    border-top: 1px solid #ededed;
+    border-right: 1px solid #ededed;
+    border-bottom: 1px solid #ededed;
+    border-left: 1px solid #ededed;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/layout/ResponsiveColumn.scss:1 */
+.x-responsivecolumn {
+    padding: 20px 0 0 20px;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/layout/ResponsiveColumn.scss:4 */
+.x-responsivecolumn > * {
+    margin: 0 20px 20px 0;
+    float: left;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/rating/Picker.scss:1 */
+.ux-rating-picker {
+    overflow: hidden;
+    color: #ccc;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+    opacity: 0.8;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 1;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/rating/Picker.scss:15 */
+.ux-rating-picker-inner {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    white-space: nowrap;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/rating/Picker.scss:28 */
+.ux-rating-picker-over.ux-rating-picker-track-over {
+    color: #ccc;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/rating/Picker.scss:31 */
+.ux-rating-picker-over.ux-rating-picker-track-over > * > .ux-rating-picker-value {
+    display: none;
+    width: 0;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/rating/Picker.scss:36 */
+.ux-rating-picker-over.ux-rating-picker-track-over > * > .ux-rating-picker-value:hover {
+    color: inherit;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/rating/Picker.scss:40 */
+.ux-rating-picker-over.ux-rating-picker-track-over > * > .ux-rating-picker-tracker {
+    display: inline-block;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/rating/Picker.scss:45 */
+.ux-rating-picker-value,
+.ux-rating-picker-tracker {
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    top: 0;
+    width: 0;
+    height: 100%;
+    color: #ffe850;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/rating/Picker.scss:58 */
+.ux-rating-picker-tracker {
+    display: none;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/packages/ux/classic/sass/src/rating/Picker.scss:62 */
+.ux-rating-picker-over {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    opacity: 1;
+}
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-tab-navigation-top {
     -webkit-border-radius: 0;
@@ -8248,317 +8853,6 @@
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/tab/Bar.scss:616 */
 .x-box-scroller-plain.x-box-scroller-tab-bar-navigation.x-box-scroller-bottom {
     background-image: url(images/tab-bar/navigation-plain-scroll-bottom.png);
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:276 */
-.x-panel-navigation {
-    border-color: #b71c1c;
-    padding: 0;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:282 */
-.x-panel-header-navigation {
-    font-size: 20px;
-    border: 1px solid #b71c1c;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:307 */
-.x-panel-header-navigation .x-tool-tool-el {
-    background-color: #b71c1c;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:313 */
-.x-panel-header-navigation-horizontal {
-    padding: 0;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:317 */
-.x-panel-header-navigation-horizontal .x-panel-header-navigation-tab-bar {
-    margin-top: 0;
-    margin-bottom: 0;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:337 */
-.x-panel-header-navigation-vertical {
-    padding: 0 0 0 0;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:341 */
-.x-panel-header-navigation-vertical .x-panel-header-navigation-tab-bar {
-    margin-right: 0;
-    margin-left: 0;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:362 */
-.x-rtl.x-panel-header-navigation-vertical {
-    padding: 0 0 0 0;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:366 */
-.x-rtl.x-panel-header-navigation-vertical .x-panel-header-navigation-tab-bar {
-    margin-left: 0;
-    margin-right: 0;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:387 */
-.x-panel-header-title-navigation {
-    color: #fff;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 24px;
-    margin: 36px;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:400 */
-.x-panel-header-title-navigation > .x-title-text-navigation {
-    text-transform: none;
-    padding: 0;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:447 */
-.x-panel-header-title-navigation > .x-title-icon-wrap-navigation.x-title-icon-top {
-    height: 39px;
-    padding-bottom: 15px;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:452 */
-.x-panel-header-title-navigation > .x-title-icon-wrap-navigation.x-title-icon-right {
-    width: 39px;
-    padding-left: 15px;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:457 */
-.x-panel-header-title-navigation > .x-title-icon-wrap-navigation.x-title-icon-right.x-rtl {
-    padding-left: 0;
-    padding-right: 15px;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:464 */
-.x-panel-header-title-navigation > .x-title-icon-wrap-navigation.x-title-icon-bottom {
-    height: 39px;
-    padding-top: 15px;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:469 */
-.x-panel-header-title-navigation > .x-title-icon-wrap-navigation.x-title-icon-left {
-    width: 39px;
-    padding-right: 15px;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:474 */
-.x-panel-header-title-navigation > .x-title-icon-wrap-navigation.x-title-icon-left.x-rtl {
-    padding-right: 0;
-    padding-left: 15px;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:481 */
-.x-panel-header-title-navigation > .x-title-icon-wrap-navigation > .x-title-icon-navigation {
-    width: 24px;
-    height: 24px;
-    font-size: 24px;
-    color: #fff;
-    background-position: center center;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:501 */
-.x-ie8 .x-panel-header-title-navigation > .x-title-icon-wrap-navigation > .x-title-icon-navigation.x-title-glyph {
-    color: #fff;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:512 */
-.x-panel-body-navigation {
-    background: #fff;
-    border-color: #c2c2c2;
-    color: #000;
-    font-size: 13px;
-    font-weight: normal;
-    font-family: 'Open Sans', sans-serif;
-    border-width: 1px;
-    border-style: solid;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:676 */
-.x-panel-header-navigation {
-    background-image: none;
-    background-color: #b71c1c;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:680 */
-.x-panel-header-navigation-vertical {
-    background-image: none;
-    background-color: #b71c1c;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:685 */
-.x-rtl.x-panel-header-navigation-vertical {
-    background-image: none;
-    background-color: #b71c1c;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:738 */
-.x-panel .x-panel-header-navigation-collapsed-border-top {
-    border-bottom-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:742 */
-.x-panel .x-panel-header-navigation-collapsed-border-right {
-    border-left-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:746 */
-.x-panel .x-panel-header-navigation-collapsed-border-bottom {
-    border-top-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:750 */
-.x-panel .x-panel-header-navigation-collapsed-border-left {
-    border-right-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:786 */
-.x-panel-header-navigation-horizontal .x-tool-after-title {
-    margin: 0 0 0 6px;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:791 */
-.x-panel-header-navigation-horizontal .x-rtl.x-tool-after-title {
-    margin: 0 6px 0 0;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:796 */
-.x-panel-header-navigation-horizontal .x-tool-before-title {
-    margin: 0 6px 0 0;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:801 */
-.x-panel-header-navigation-horizontal .x-rtl.x-tool-before-title {
-    margin: 0 0 0 6px;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:808 */
-.x-panel-header-navigation-vertical .x-tool-after-title {
-    margin: 6px 0 0 0;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:813 */
-.x-panel-header-navigation-vertical .x-rtl.x-tool-after-title {
-    margin: 6px 0 0 0;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:818 */
-.x-panel-header-navigation-vertical .x-tool-before-title {
-    margin: 0 0 6px 0;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:823 */
-.x-panel-header-navigation-vertical .x-rtl.x-tool-before-title {
-    margin: 0 0 6px 0;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:830 */
-.x-panel-header-navigation .x-tool-focus {
-    outline: 1px solid #fff;
-    outline-offset: 1px;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:64 */
-.x-ie .x-panel-header-navigation .x-tool-focus,
-.x-ie10p .x-panel-header-navigation .x-tool-focus,
-.x-edge .x-panel-header-navigation .x-tool-focus {
-    outline: none;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/css-outline.scss:40 */
-.x-ie .x-panel-header-navigation .x-tool-focus:after,
-.x-ie10p .x-panel-header-navigation .x-tool-focus:after,
-.x-edge .x-panel-header-navigation .x-tool-focus:after {
-    position: absolute;
-    content: ' ';
-    top: -2px;
-    right: -2px;
-    bottom: -2px;
-    left: -2px;
-    border: 1px solid #fff;
-    pointer-events: none;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:842 */
-.x-rtl.x-panel-header-navigation-collapsed-border-right {
-    border-right-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:845 */
-.x-rtl.x-panel-header-navigation-collapsed-border-left {
-    border-left-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-neutral/sass/src/panel/Panel.scss:859 */
-.x-panel-navigation-resizable .x-panel-handle {
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    opacity: 0;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:2 */
-.x-panel-navigation-outer-border-l {
-    border-left-color: #b71c1c !important;
-    border-left-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:6 */
-.x-panel-navigation-outer-border-b {
-    border-bottom-color: #b71c1c !important;
-    border-bottom-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:10 */
-.x-panel-navigation-outer-border-bl {
-    border-bottom-color: #b71c1c !important;
-    border-bottom-width: 1px !important;
-    border-left-color: #b71c1c !important;
-    border-left-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:16 */
-.x-panel-navigation-outer-border-r {
-    border-right-color: #b71c1c !important;
-    border-right-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:20 */
-.x-panel-navigation-outer-border-rl {
-    border-right-color: #b71c1c !important;
-    border-right-width: 1px !important;
-    border-left-color: #b71c1c !important;
-    border-left-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:26 */
-.x-panel-navigation-outer-border-rb {
-    border-right-color: #b71c1c !important;
-    border-right-width: 1px !important;
-    border-bottom-color: #b71c1c !important;
-    border-bottom-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:32 */
-.x-panel-navigation-outer-border-rbl {
-    border-right-color: #b71c1c !important;
-    border-right-width: 1px !important;
-    border-bottom-color: #b71c1c !important;
-    border-bottom-width: 1px !important;
-    border-left-color: #b71c1c !important;
-    border-left-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:40 */
-.x-panel-navigation-outer-border-t {
-    border-top-color: #b71c1c !important;
-    border-top-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:44 */
-.x-panel-navigation-outer-border-tl {
-    border-top-color: #b71c1c !important;
-    border-top-width: 1px !important;
-    border-left-color: #b71c1c !important;
-    border-left-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:50 */
-.x-panel-navigation-outer-border-tb {
-    border-top-color: #b71c1c !important;
-    border-top-width: 1px !important;
-    border-bottom-color: #b71c1c !important;
-    border-bottom-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:56 */
-.x-panel-navigation-outer-border-tbl {
-    border-top-color: #b71c1c !important;
-    border-top-width: 1px !important;
-    border-bottom-color: #b71c1c !important;
-    border-bottom-width: 1px !important;
-    border-left-color: #b71c1c !important;
-    border-left-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:64 */
-.x-panel-navigation-outer-border-tr {
-    border-top-color: #b71c1c !important;
-    border-top-width: 1px !important;
-    border-right-color: #b71c1c !important;
-    border-right-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:70 */
-.x-panel-navigation-outer-border-trl {
-    border-top-color: #b71c1c !important;
-    border-top-width: 1px !important;
-    border-right-color: #b71c1c !important;
-    border-right-width: 1px !important;
-    border-left-color: #b71c1c !important;
-    border-left-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:78 */
-.x-panel-navigation-outer-border-trb {
-    border-top-color: #b71c1c !important;
-    border-top-width: 1px !important;
-    border-right-color: #b71c1c !important;
-    border-right-width: 1px !important;
-    border-bottom-color: #b71c1c !important;
-    border-bottom-width: 1px !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/border-management.scss:86 */
-.x-panel-navigation-outer-border-trbl {
-    border-color: #b71c1c !important;
-    border-width: 1px !important;
 }
 /* D:/tomcat/tomcat9.0.0/webapps/vvf/ext/classic/theme-base/sass/etc/mixins/frame.scss:187 */
 .x-btn-menu-medium {
@@ -10724,143 +11018,163 @@
 .x-button-logout-small-cell > .x-grid-cell-inner >.x-btn-logout-small {
     vertical-align: top;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:99 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:90 */
 .x-title-icon-navigation {
     font-family: FontAwesome;
     color: #fff;
     font-size: 24px;
     line-height: 24px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:106 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:97 */
 .x-tab-icon-el-navigation {
     font-family: FontAwesome;
     color: #acacac;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:110 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:101 */
 .x-tab-over .x-tab-icon-el-navigation {
     color: #c4c4c4;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:114 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:105 */
 .x-tab-active .x-tab-icon-el-navigation {
     color: #fff;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:119 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:110 */
 .x-panel-header-title-navigation > .x-title-text-navigation:after {
     top: 30px;
     right: -24px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:124 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:115 */
 .menu {
     background: #ffebee;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:130 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:121 */
 .x-form-text {
     height: 26px !important;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:133 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:124 */
 .x-form-text-default.x-form-textarea {
     height: 100% !important;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:137 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:128 */
 .x-btn {
     box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12) !important;
     height: 30px;
     cursor: pointer !important;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:143 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:134 */
 .label-primary {
     color: #126daf;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:147 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:138 */
 .label-info {
     color: #b71c1c;
     font-weight: bold;
     font-size: 18px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:153 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:144 */
 .icon-user {
     background-image: url("images/user.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:160 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:151 */
 .icon-confirm {
     background-image: url("images/confirm.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:167 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:158 */
 .icon-add {
     background-image: url("images/add.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:173 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:164 */
 .icon-delete {
     background-image: url("images/delete.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:179 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:170 */
 .icon-notification {
     background-image: url("images/notification.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:185 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:176 */
 .icon-print {
     background-image: url("images/print.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:191 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:182 */
 .icon-phone {
     background-image: url("images/phone.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:198 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:189 */
 .icon-turni {
     background-image: url("images/calendar.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:204 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:195 */
 .icon-turni-white {
     background-image: url("images/calendar_white.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:211 */
-.icon-delete,
-.icon-add,
-.icon-confirm,
-.icon-print,
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:203 */
 .icon-24 {
     background-size: 24px 24px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:219 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:207 */
 .icon-faldone {
     background-image: url("images/faldone.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:225 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:213 */
+.icon-earth {
+    background-image: url("images/earth.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:219 */
+.icon-exit {
+    background-image: url("images/exit.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:225 */
+.icon-earth-white {
+    background-image: url("images/earth_white.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:231 */
 .icon-email {
     background-image: url("images/email.svg");
     background-repeat: no-repeat;
     background-position: center;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:231 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:237 */
+.icon-fireman {
+    background-image: url("images/fireman.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:243 */
 .row-height-70 {
     height: 70px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:235 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:247 */
 .row-margin .x-grid-cell {
     margin-top: 5px;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:239 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:251 */
 .table {
     border-radius: 3px;
     display: table;
@@ -10868,46 +11182,46 @@
     width: 100%;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:247 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:259 */
 .table-inner {
     display: table-cell;
     vertical-align: middle;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:252 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:264 */
 .no-background {
     background: none !important;
     border: none !important;
     box-shadow: none !important;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:258 */
-.x-mask {
-    position: fixed !important;
-}
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:262 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:271 */
 .x-mask-msg {
     border: none !important;
     background: #fff !important;
-    z-index: 999999 !important;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:267 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:275 */
 .x-mask-msg-text {
+    z-index: 999999 !important;
     height: 200px;
     width: 200px;
-    z-index: 999999 !important;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:273 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:281 */
 .shadow {
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:278 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:286 */
+.base-label {
+    color: #b71c1c;
+    font-size: 18px;
+}
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:291 */
 .grassetto {
     font-weight: bold;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:282 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:295 */
 .x-fieldset-header-text {
     font-size: 16px !important;
 }
-/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/main/Main.scss:288 */
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:301 */
 .x-datepicker-selected div.x-datepicker-date {
     border-radius: 50%;
 }

@@ -7,9 +7,9 @@ Ext.define('vvf.view.protocolli.store.Comuni', {
     ],
     proxy: {
         type: 'ajax',
-        url: '/vvfriva/ws/general/comuni/list',
+        url: '/vvfriva2/ws/general/comuni/list',
         api: {
-           read: '/vvfriva/ws/general/comuni/list'
+           read: '/vvfriva2/ws/general/comuni/list'
         },
         reader: {
             type: 'json',

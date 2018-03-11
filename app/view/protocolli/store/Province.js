@@ -8,9 +8,9 @@ Ext.define('vvf.view.protocolli.store.Province', {
     ],
     proxy: {
         type: 'ajax',
-        url: '/vvfriva/ws/general/province/list',
+        url: '/vvfriva2/ws/general/province/list',
         api: {
-           read: '/vvfriva/ws/general/province/list'
+           read: '/vvfriva2/ws/general/province/list'
         },
         reader: {
             type: 'json',

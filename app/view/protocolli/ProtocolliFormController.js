@@ -64,6 +64,10 @@ Ext.define('vvf.view.protocolli.ProtocolliFormController', {
         this.view.up('window').close();
     },
     
+    dirtyChangeForm(th, isDrity) { debugger;
+    	this.lookupReference('BtnConferma').setDisabled(!isDrity)
+    },
+    
     launch() {
 
         let form = this.lookupReference('Form'),

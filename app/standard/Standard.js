@@ -1,5 +1,9 @@
 Ext.define('vvf.standard.Standard',{
     alternateClassName: 'Standard',
+    requires: [
+    	'vvf.componenti.FloatingPanel'
+    ],
+    
     statics: {
        
         showErrorMsg(arrayErrorMsg) {
@@ -62,21 +66,20 @@ Ext.define('vvf.standard.Standard',{
         },
         
         startLoading() {
-
-        	let hasActiveWindow = Ext.WindowManager.getActive();
-         	if (hasActiveWindow)
-         		hasActiveWindow.mask(' ');
-         	else
-         		Ext.getBody().mask(' ');
+         	//Ext.getBody().mask(' ');
+        	let bodyEl = Ext.getBody(),
+        		bodyCmp = Ext.getBody().component;
+        	
+        	bodyCmp.panel = bodyCmp.add(
+        		Ext.create('floatingPanel', {})
+			)
+			bodyCmp.panel.showBy(bodyEl);
         },
         
         endLoading() {
-        	let hasActiveWindow = Ext.WindowManager.getActive();
-        	if (hasActiveWindow)
-         		hasActiveWindow.unmask();
-         	else
-         		Ext.getBody().unmask();
-         		
+        	let body = Ext.getBody().component;
+        	if(body.panel)
+        		body.panel.hide();
         },
 
         salvaRecord(component = null, record = null) {
@@ -165,7 +168,7 @@ Ext.define('vvf.standard.Standard',{
         	
         	Ext.Ajax.request({
                 method: 'GET',
-                url: '/vvfriva/ws/auth/logout',
+                url: '/vvfriva2/ws/auth/logout',
                 success: (response) => { 
                     let risposta = Ext.decode(response.responseText);
                     if (risposta.success) {
@@ -178,7 +181,7 @@ Ext.define('vvf.standard.Standard',{
         doLogin(username, password, callback_login) {
         	Ext.Ajax.request({
                 method: 'POST',
-                url: '/vvfriva/ws/auth/login',
+                url: '/vvfriva2/ws/auth/login',
                 params: {
                 	username: username,
                 	password: password

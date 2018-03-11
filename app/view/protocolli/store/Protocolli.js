@@ -24,12 +24,12 @@ Ext.define('vvf.view.protocolli.store.Protocolli', {
     ],
     proxy: {
         type: 'ajax',
-        url: '/vvfriva/ws/protocolli/list',
+        url: '/vvfriva2/ws/protocolli/list',
         api: {
-            read: '/vvfriva/ws/protocolli/list',
-            create: '/vvfriva/ws/protocolli/save',
-            destroy: '/vvfriva/ws/protocolli/delete',
-            update: '/vvfriva/ws/protocolli/update'
+            read: '/vvfriva2/ws/protocolli/list',
+            create: '/vvfriva2/ws/protocolli/save',
+            destroy: '/vvfriva2/ws/protocolli/delete',
+            update: '/vvfriva2/ws/protocolli/update'
         },
         reader: {
             type: 'json',

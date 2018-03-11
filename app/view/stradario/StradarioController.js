@@ -20,6 +20,17 @@ Ext.define('vvf.view.stradario.StradarioController', {
             }
         });
     },
+    
+    showMap() {
+    	let win = Ext.create('vvf.componenti.StdWin', {
+            width: 1024,
+            height: 600,
+            maximizable: true,
+            title: 'Posizione idranti',
+            view: 'vvf.view.stradario.MappaIdranti', //AIzaSyDFqWlkpL1vqjkqkUtjGKwjRbFE_gquukA
+        });
+        win.show();
+    },
 
     changeCerca(th, newValue) {
         let store = this.lookup('Grid').getStore();

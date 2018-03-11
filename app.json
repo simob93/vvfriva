@@ -15,7 +15,8 @@
      *      ]
      */
     "requires": [
-        "font-awesome"
+        "font-awesome",
+        'ux'
     ],
 
     /**

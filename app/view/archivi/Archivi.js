@@ -1,4 +1,3 @@
-
 Ext.define('vvf.view.archivi.Archivi',{
     extend: 'Ext.panel.Panel',
 

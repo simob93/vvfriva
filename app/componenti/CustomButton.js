@@ -16,6 +16,7 @@ Ext.define('vvf.componenti.CustomButton', {
         this.items = [
             {
                 xtype: 'button',
+                tooltip: 'Nuovo',
                 reference: 'BtnNuovo',
                 text: 'Nuovo'
             },
@@ -23,8 +24,10 @@ Ext.define('vvf.componenti.CustomButton', {
                 xtype: 'button',
                 reference: 'BtnConferma',
                 scale: 'medium',
+                tooltip: 'conferma',
                 cls: 'no-background',
                 iconCls: 'icon-confirm',
+                disabled: true,
                 listeners: {
                     click: th => {
 
@@ -43,21 +46,24 @@ Ext.define('vvf.componenti.CustomButton', {
             {
                 xtype: 'button',
                 reference: 'BtnElimina',
+                tooltip: 'elimina',
                 text: 'Elimina'
             },
-            {
-                xtype: 'button',
-                reference: 'BtnEsci',
-                text: 'Esci',
-                listeners: {
-                    click: th => {
-                       
-                        if (this.vvfConfig.esci_callBack) {
-                            this.vvfConfig.esci_callBack();
-                        }
-                    }
-                }
-            }
+//            {
+//                xtype: 'button',
+//                iconCls: 'icon-exit',
+//                cls: 'no-background',
+//                scale: 'medium',
+//                reference: 'BtnEsci',
+//                listeners: {
+//                    click: th => {
+//                       
+//                        if (this.vvfConfig.esci_callBack) {
+//                            this.vvfConfig.esci_callBack();
+//                        }
+//                    }
+//                }
+//            }
         ];
 		this.callParent();
 	}

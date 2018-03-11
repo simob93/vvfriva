@@ -4,7 +4,12 @@ Ext.define('vvf.view.menu.Menu',{
 
     requires: [
         'vvf.view.menu.MenuController',
-        'vvf.view.menu.store.Menu'
+        'vvf.view.menu.store.Menu',
+        'vvf.view.rubrica.Rubrica',
+        'vvf.view.stradario.MappaIdranti',
+        'vvf.view.turni.Turni',
+        'vvf.view.protocolli.Protocolli',
+        'vvf.view.vigili.Vigili',
     ],
 
     controller: 'menu',
@@ -77,6 +82,7 @@ Ext.define('vvf.view.menu.Menu',{
                 	items: [
                 		{
                 			xtype: 'container',
+                			reference: 'BoxRubrica',
                 			margin: '5 0 5 0',
                 			layout: {
                 				type: 'vbox',
@@ -93,13 +99,22 @@ Ext.define('vvf.view.menu.Menu',{
                 				{
                         			xtype: 'image',
                         			width: 400,
-                        			height: 500,
+                        			height: 400,
                         			src: 'resources/images/phone_red.svg',
                         		},
-                			]
+                        		{
+                        			xtype: 'label',
+                        			cls: 'base-label',
+                        			html: 'Numeri telefonici'
+                        		}
+                        	],
+                        	listeners: {
+                        		afterrender: 'afterenderBox'
+                        	}
                 		},
                 		{
                 			xtype: 'container',
+                			reference: 'BoxTurnario',
                 			margin: '5 0 5 5',
                 			layout: {
                 				type: 'vbox',
@@ -118,8 +133,16 @@ Ext.define('vvf.view.menu.Menu',{
                         			width: 300,
                         			height: 400,
                         			src: 'resources/images/calendar_red.svg',
+                        		},
+                        		{
+                        			xtype: 'label',
+                        			cls: 'base-label',
+                        			html: 'Turnistica'
                         		}
-                			]
+                			],
+                			listeners: {
+                        		afterrender: 'afterenderBox'
+                        	}
                 		}
                 		
                 	]

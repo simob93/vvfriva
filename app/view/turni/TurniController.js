@@ -60,7 +60,7 @@ Ext.define('vvf.view.turni.TurniController', {
     	    					{
     	    						xtype: 'segmentedbutton',
     	    						margin: '10 0 0 0',
-    	    						heigth: 40,
+    	    						heigth: 60,
     	    						itemId: 'BtnOptions', reference: 'BtnOptions',
     	    						layout: {
     	    							type: 'hbox',
@@ -129,7 +129,7 @@ Ext.define('vvf.view.turni.TurniController', {
     		return false;
     	}
     	Standard.doPrint({
-    		url: '/vvfriva/ws/turni/print',
+    		url: '/vvfriva2/ws/turni/print',
     		dal: this.winStampa.down('#DataDal').getValue(),
     		type: this.winStampa.down('#BtnOptions').getValue(),
     		title: 'Stampa turnario'
@@ -145,7 +145,7 @@ Ext.define('vvf.view.turni.TurniController', {
     	let boxInfo = this.lookup('BoxInfo');
     	Ext.Ajax.request({
             method: 'GET',
-            url: '/vvfriva/ws/turni/whois',
+            url: '/vvfriva2/ws/turni/whois',
             params: {
             	data: today
             },

@@ -28,6 +28,13 @@ Ext.define('vvf.view.vigili.Vigili',{
             //scrollable: true,
             flex: 1,
             columns: [
+            	{
+            		xtype: 'gridcolumn',
+            		width: 30,
+            		renderer: function(value, metaData, record) {
+            			return '<div class="icon-fireman" style="height: 20px; width: 20px;"></div>'
+            		}
+            	},
                 {
                     xtype: 'gridcolumn',
                     dataIndex: 'nome',
@@ -145,7 +152,15 @@ Ext.define('vvf.view.vigili.Vigili',{
                         iconCls: 'icon-delete',
                         handler: 'clickBtnElimina',
                         scale: 'medium'
-                    }
+                    },
+                    {
+    					xtype: 'button',
+    					cls: 'no-background',
+    					iconCls: 'icon-print',
+    					scale: 'medium',
+    					tooltip: 'stampa',
+    					handler: 'clickBtnStampa'
+    				}
                 ]
             }],
             listeners: {

@@ -78,7 +78,27 @@ Ext.define('vvf.view.vigili.VigiliForm',{
                     },
                     items: [
                         {
+                            xtype: 'checkboxfield',
+                            boxLabel: 'Caposquadra',
+                            inputValue: '1',
+                            uncheckedValue: '0',
+                            name: 'capoSquadra',
+                            listeners: {
+                            	change: 'changeCheckCs'
+                            }
+                            
+                        }
+                    ]
+                },
+                {
+                    xtype: 'container',
+                    layout: {
+                        type: 'hbox'
+                    },
+                    items: [
+                        {
                             xtype: 'combobox',
+                            reference: 'CboxGrado',
                             store: {
                                 type: 'grado'
                             },
@@ -109,7 +129,6 @@ Ext.define('vvf.view.vigili.VigiliForm',{
                             store: {
                                 type: 'squadre'
                             },
-                            editable: false,
                             fieldLabel: 'Squadra',
                             displayField: 'valore',
                             valueField: 'codice',
@@ -146,6 +165,9 @@ Ext.define('vvf.view.vigili.VigiliForm',{
                     ]
                 }
             ],
+            listeners: {
+            	dirtychange: 'dirtyChangeForm'
+            },
             dockedItems: [
                 {
                     xtype: 'toolbar',

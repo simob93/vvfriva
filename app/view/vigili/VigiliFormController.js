@@ -60,7 +60,7 @@ Ext.define('vvf.view.vigili.VigiliFormController', {
                 params: {
                     idSquadra: newValue
                 },
-                url: '/vvfriva/ws/vigili/getLettere',
+                url: '/vvfriva2/ws/vigili/getLettere',
                 success: (response) => {
                     let risposta = Ext.decode(response.responseText);
                     if (risposta.success) {
@@ -74,6 +74,14 @@ Ext.define('vvf.view.vigili.VigiliFormController', {
             txtLetteraVigile.setValue(null);
         }
     },
+    
+    changeCheckCs(th, newValue) {
+    	let cboxGrado = this.lookup('CboxGrado');
+    	if (newValue)
+    		cboxGrado.setValue('Caposquadra');
+    	else if (!this.onLoad)
+    		cboxGrado.setValue(null);
+    },
 
     caricaDati() {
         let form = this.lookupReference('Form');
@@ -82,6 +90,10 @@ Ext.define('vvf.view.vigili.VigiliFormController', {
             form.getForm().loadRecord(this.vvfConfig.record);
             this.onLoad = false;
         }
+    },
+    
+    dirtyChangeForm(th, isDirty) {
+    	this.lookupReference('BtnConferma').setDisabled(!isDirty)
     },
 
     launch() {

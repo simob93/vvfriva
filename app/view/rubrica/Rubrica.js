@@ -93,7 +93,15 @@ Ext.define('vvf.view.rubrica.Rubrica',{
                         scale: 'medium',
                         handler: 'deleteRecord',
                       
-                    }
+                    },
+                    {
+    					xtype: 'button',
+    					cls: 'no-background',
+    					iconCls: 'icon-print',
+    					scale: 'medium',
+    					tooltip: 'stampa',
+    					handler: 'clickBtnStampa'
+    				}
                 ]
             }],
             listeners: {

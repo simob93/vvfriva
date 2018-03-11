@@ -62,7 +62,7 @@ Ext.define('vvf.view.vigili.VigiliController', {
         let win = Ext.create('vvf.componenti.StdWin', {
             width: 600,
             height: 450,
-            title: 'Nuovo vigile',
+            title: 'Vigile',
             view: 'vvf.view.vigili.VigiliForm',
             vvfConfig: {
                 controllerMain: this
@@ -92,6 +92,15 @@ Ext.define('vvf.view.vigili.VigiliController', {
             style: 'line-height: 2.2;'
         });
         return cnt;
+    },
+    
+    clickBtnStampa() {
+    	
+    	Standard.doPrint({
+    		url: '/vvfriva2/ws/vigili/print',
+    		title: 'Stampa elenco vigili',
+    		nonAttivi: this.lookup('CkbNonAttivi').getValue()
+    	});
     },
 
     clickBtnElimina() {

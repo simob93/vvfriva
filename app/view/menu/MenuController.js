@@ -7,9 +7,10 @@ Ext.define('vvf.view.menu.MenuController', {
         this.store.each(record => {
             cnt.add({
                 xtype: 'button',
+                itemId: record.get('type'),
                 margin: '0 0 0 3',
                 height: 40,
-                width: 120,
+                width: 125,
                 ui: record.get('admin') ? 'menu-superUser': 'menu',
                 scale: 'medium',
                 admin: record.get('admin') === true,
@@ -82,7 +83,9 @@ Ext.define('vvf.view.menu.MenuController', {
     },
 
     cickBtnMenu(th) {
+    	this.lookup('ShortMenu').hide();
         let tabPanel = this.lookupReference('TabMenu');
+        tabPanel.show();
         tabPanel.removeAll(true); 
         tabPanel.add({
             closable: false,
@@ -101,7 +104,7 @@ Ext.define('vvf.view.menu.MenuController', {
     existSession() {
     	Ext.Ajax.request({
             method: 'GET',
-            url: '/vvfriva/ws/general/session',
+            url: '/vvfriva2/ws/general/session',
             success: (response) => { 
                 let risposta = Ext.decode(response.responseText);
                 if (risposta.success) {
@@ -110,6 +113,21 @@ Ext.define('vvf.view.menu.MenuController', {
                 }
             }
         });
+    },
+    
+    clickShortMenu(th) {
+    	let menu = this.lookup('CntMenu'),
+    		btn = null;
+    	if (th.getReference() === 'BoxRubrica') {
+    		btn = menu.down('#_rubrica');
+    	} else if (th.getReference() === 'BoxTurnario') {
+    		btn = menu.down('#_turni');
+    	}
+    	btn.handler(btn);
+    },
+    
+    afterenderBox(th) {
+    	th.getEl().on('click', () => this.clickShortMenu(th))
     },
     
     launch() {

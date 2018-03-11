@@ -12,7 +12,12 @@ Ext.application({
     requires: [
         'vvf.view.menu.Menu',
         'vvf.standard.Config',
-        'vvf.standard.Standard'
+        'vvf.standard.Standard',
+        'Ext.ux.GMapPanel',
+        'Ext.plugin.Viewport',
+        'Ext.form.TimeField',
+        'Ext.window.Toast',
+        'Ext.slider.Single'
     ],
 
     // The name of the initial view to create. With the classic toolkit this class

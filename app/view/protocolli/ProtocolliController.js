@@ -4,9 +4,13 @@ Ext.define('vvf.view.protocolli.ProtocolliController', {
 
     aggiornaStore() {
         let grid = this.lookupReference('Grid'),
-            store = grid.getStore();
+            store = grid.getStore(),
+            searchText = this.lookup('TxtSearch').getValue();
         
         store.load({
+        	params: {
+        		oggetto: searchText
+        	},
             callback: (records, operation, success) => {
                 if (success) {
 
@@ -42,6 +46,10 @@ Ext.define('vvf.view.protocolli.ProtocolliController', {
             }
         });
         win.show();
+    },
+    
+    clickBtnFind() {
+    	this.aggiornaStore();
     },
 
     creaWinArchivi() {
@@ -97,8 +105,17 @@ Ext.define('vvf.view.protocolli.ProtocolliController', {
 
 
     launch() {
-        
         this.aggiornaStore()
+        let grid = this.lookupReference('Grid'),
+       		store = grid.getStore();
+        
+        store.on('beforeload', (store, op) => { debugger;
+        	let searchText = this.lookup('TxtSearch').getValue();
+        	Ext.apply(store.proxy.extraParams, {
+        		oggetto: searchText
+        	})
+        });
+        
     }
 
 });

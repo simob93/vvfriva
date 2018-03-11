@@ -10,12 +10,12 @@ Ext.define('vvf.view.rubrica.store.Rubrica', {
     ],
     proxy: {
         type: 'ajax',
-        url: '/vvfriva/ws/rubrica/list',
+        url: '/vvfriva2/ws/rubrica/list',
         api: {
-            read: '/vvfriva/ws/rubrica/list',
-            create: '/vvfriva/ws/rubrica/save',
-            destroy: '/vvfriva/ws/rubrica/delete',
-            update: '/vvfriva/ws/rubrica/update'
+            read: '/vvfriva2/ws/rubrica/list',
+            create: '/vvfriva2/ws/rubrica/save',
+            destroy: '/vvfriva2/ws/rubrica/delete',
+            update: '/vvfriva2/ws/rubrica/update'
         },
         reader: {
             type: 'json',

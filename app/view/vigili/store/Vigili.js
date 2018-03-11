@@ -12,12 +12,12 @@ Ext.define('vvf.view.vigili.store.Vigili', {
     ],
     proxy: {
         type: 'ajax',
-        url: '/vvfriva/ws/vigili/list',
+        url: '/vvfriva2/ws/vigili/list',
         api: {
-            read: '/vvfriva/ws/vigili/list',
-            create: '/vvfriva/ws/vigili/save',
-            destroy: '/vvfriva/ws/vigili/delete',
-            update: '/vvfriva/ws/vigili/update'
+            read: '/vvfriva2/ws/vigili/list',
+            create: '/vvfriva2/ws/vigili/save',
+            destroy: '/vvfriva2/ws/vigili/delete',
+            update: '/vvfriva2/ws/vigili/update'
         },
         reader: {
             type: 'json',

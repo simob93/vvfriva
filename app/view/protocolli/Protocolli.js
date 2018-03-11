@@ -5,6 +5,8 @@ Ext.define('vvf.view.protocolli.Protocolli',{
     requires: [
         'vvf.view.protocolli.ProtocolliController',
         'vvf.view.protocolli.store.Protocolli',
+        'vvf.view.archivi.Archivi',
+        'vvf.view.enti.Enti',
         'vvf.view.protocolli.ProtocolliForm'
     ],
 
@@ -71,11 +73,13 @@ Ext.define('vvf.view.protocolli.Protocolli',{
                 items: [
                     {
                         xtype: 'textfield',
+                        reference: 'TxtSearch',
                         emptyText: 'Ricerca per oggetto...'
                     },
                     {
                         xtype: 'button',
-                        text: 'Trova'
+                        text: 'Trova',
+                        handler: 'clickBtnFind'
                     },
                     {
                         xtype: 'tbfill'

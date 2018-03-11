@@ -7,9 +7,9 @@ Ext.define('vvf.view.vigili.store.Squadre', {
     ],
     proxy: {
         type: 'ajax',
-        url: '/vvfriva/ws/squadre/list',
+        url: '/vvfriva2/ws/squadre/list',
         api: {
-            read: '/vvfriva/ws/squadre/list',
+            read: '/vvfriva2/ws/squadre/list',
         },
         reader: {
             type: 'json',

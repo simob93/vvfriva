@@ -5,16 +5,17 @@ Ext.define('vvf.view.protocolli.store.Faldoni', {
        {name: 'id'},
        {name: 'extra'},
        {name: 'numero'},
+       {name: 'tmp', convert:(value, record) => record.get('numero') + " - " + record.get('descrizione')},
        
     ],
     proxy: {
         type: 'ajax',
-        url: '/vvfriva/ws/faldoni/list',
+        url: '/vvfriva2/ws/faldoni/list',
         api: {
-            read: '/vvfriva/ws/faldoni/list',
-            create: '/vvfriva/ws/faldoni/save',
-            destroy: '/vvfriva/ws/faldoni/delete',
-            update: '/vvfriva/ws/faldoni/update'
+            read: '/vvfriva2/ws/faldoni/list',
+            create: '/vvfriva2/ws/faldoni/save',
+            destroy: '/vvfriva2/ws/faldoni/delete',
+            update: '/vvfriva2/ws/faldoni/update'
         },
         reader: {
             type: 'json',

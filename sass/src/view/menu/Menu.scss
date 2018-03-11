@@ -1,0 +1,305 @@
+/**
+ * Generates a set of style rules for the "navigation" tab UI.
+ */
+
+@include extjs-tab-panel-ui(
+    $ui: 'navigation',
+    $ui-tab-background-color: transparent,
+    $ui-tab-background-color-over: #505050,
+    $ui-tab-background-color-active: #303030,
+    $ui-tab-background-gradient: 'none',
+    $ui-tab-background-gradient-over: 'none',
+    $ui-tab-background-gradient-active: 'none',
+    $ui-tab-color: #acacac,
+    $ui-tab-color-over: #c4c4c4,
+    $ui-tab-color-active: #fff,
+    $ui-tab-glyph-color: #acacac,
+    $ui-tab-glyph-color-over: #c4c4c4,
+    $ui-tab-glyph-color-active: #fff,
+    $ui-tab-glyph-opacity: 1,
+    $ui-tab-border-radius: 0,
+    $ui-tab-border-width: 0,
+    $ui-tab-inner-border-width: 0,
+    $ui-tab-padding: 24px,
+    $ui-tab-margin: 0,
+    $ui-tab-font-size: 15px,
+    $ui-tab-font-size-over: 15px,
+    $ui-tab-font-size-active: 15px,
+    $ui-tab-line-height: 19px,
+    $ui-tab-font-weight: bold,
+    $ui-tab-font-weight-over: bold,
+    $ui-tab-font-weight-active: bold,
+    $ui-tab-icon-width: 24px,
+    $ui-tab-icon-height: 24px,
+    $ui-tab-icon-spacing: 5px,
+    $ui-bar-background-color: #404040,
+    $ui-bar-background-gradient: 'none',
+    $ui-bar-padding: 0,
+    $ui-strip-height: 0
+);
+
+/**
+ * Generates a set of style rules for the "navigation" panel UI.
+ */
+
+@include extjs-button-medium-ui(
+    $ui: 'menu',
+    $background-color: #EF5350,
+    $border-color: #EF5350,
+    $font-size: 15px
+); 
+
+@include extjs-button-medium-ui(
+    $ui: 'menu-superUser',
+    $background-color: #FFB300,
+    $border-color: #FFB300,
+    $font-size: 15px
+); 
+
+
+
+@include extjs-button-small-ui(
+    $ui: 'login',
+    $background-color: #4CAF50,
+    $border-color: #4CAF50
+); 
+
+@include extjs-button-small-ui(
+    $ui: 'logout',
+    $background-color: #607D8B,
+    $border-color: #607D8B
+); 
+
+
+/*
+ * This is is imported by virtue of "sass.var" in "app.json".
+ */
+
+$enable-font-awesome: dynamic(true);
+ $base-gradient: none;
+ $loadmask-msg-inner-icon: 'myLoading';
+ $tip-background-color: #fff;
+ $tip-border-color: #fff;
+ $tip-body-padding: 8px;
+ $base-color: #B71C1C;
+ $tab-font-size: 16px;
+ $font-family: 'Open Sans', sans-serif;
+ $grid-column-header-border-style: none;
+ 
+ 
+.x-title-icon-navigation {
+    font-family: FontAwesome;
+    color: #fff;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.x-tab-icon-el-navigation {
+    font-family: FontAwesome;
+    color: #acacac;
+
+    .x-tab-over & {
+        color: #c4c4c4;
+    }
+
+    .x-tab-active & {
+        color: #fff;
+    }
+}
+
+.x-panel-header-title-navigation > .x-title-text-navigation:after {
+    top: 30px;
+    right: -24px;
+}
+
+.menu {
+    background: #FFEBEE;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+.x-form-text {
+    height: 26px !important;
+}
+.x-form-text-default.x-form-textarea {
+    height: 100% !important;
+}
+
+.x-btn {
+	box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12) !important;
+	height: 30px;
+	cursor: pointer !important;	
+}
+
+.label-primary {
+    color:#126daf;
+}
+
+.label-info {
+    color: $base-color;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.icon-user {
+	background-image: url("images/user.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.icon-confirm {
+	background-image: url("images/confirm.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.icon-add {
+	background-image: url("images/add.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-delete {
+	background-image: url("images/delete.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-notification {
+	background-image: url("images/notification.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-print {
+	background-image: url("images/print.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-phone {
+	background-image: url("images/phone.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.icon-turni {
+	background-image: url("images/calendar.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-turni-white {
+	background-image: url("images/calendar_white.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+
+.icon-24 {
+	 background-size: 24px 24px;
+}
+
+.icon-faldone {
+	background-image: url("images/faldone.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-earth {
+	background-image: url("images/earth.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-exit {
+	background-image: url("images/exit.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-earth-white {
+	background-image: url("images/earth_white.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-email {
+	background-image: url("images/email.svg");
+	background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.icon-fireman {
+	background-image: url("images/fireman.svg");
+	background-repeat: no-repeat;
+    background-position: center; 
+}
+
+.row-height-70 {
+	height: 70px;
+}
+
+.row-margin .x-grid-cell  {
+	margin-top: 5px; 
+}
+
+.table {
+	border-radius: 3px;
+	display: table; 
+	height: 70px; 
+	width:100%;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.table-inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.no-background {
+	background: none !important;
+	border: none !important;
+	box-shadow: none !important;
+}
+
+
+.x-mask-msg {
+	border: none !important;
+	background: #fff !important;
+}
+.x-mask-msg-text {
+	z-index: 999999 !important;
+	height: 200px;
+	width: 200px;
+}
+
+.shadow {
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+	
+}
+
+.base-label {
+	color: $base-color;
+	font-size: 18px;
+}
+
+.grassetto {
+	font-weight: bold;
+}
+
+.x-fieldset-header-text {
+	font-size: 16px !important; 
+	
+}
+
+
+.x-datepicker-selected div.x-datepicker-date {
+	border-radius: 50%;
+}
+
+

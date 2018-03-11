@@ -10,12 +10,10 @@ Ext.define('vvf.view.stradario.store.Stradario', {
     ],
     proxy: {
         type: 'ajax',
-        url: '/vvfriva/ws/strade/list',
+        url: '/vvfriva2/ws/coordinate/list',
         api: {
-            read: '/vvfriva/ws/strade/list',
-            create: '/vvfriva/ws/strade/save',
-            destroy: '/vvfriva/ws/strade/delete',
-            update: '/vvfriva/ws/strade/update'
+            read: '/vvfriva2/ws/coordinate/list',
+            
         },
         reader: {
             type: 'json',

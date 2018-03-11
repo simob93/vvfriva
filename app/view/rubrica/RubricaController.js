@@ -21,6 +21,13 @@ Ext.define('vvf.view.rubrica.RubricaController', {
         });
     },
 
+    clickBtnStampa() {
+    	
+    	Standard.doPrint({
+    		url: '/vvfriva2/ws/rubrica/print',
+    		title: 'Stampa elenco telefonico'
+    	});
+    },
     
     changeCerca(th, newValue) {
         let store = this.lookup('Grid').getStore();

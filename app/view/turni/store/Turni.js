@@ -9,9 +9,9 @@ Ext.define('vvf.view.turni.store.Turni', {
     ],
     proxy: {
         type: 'ajax',
-        url: '/vvfriva/ws/turni/get',
+        url: '/vvfriva2/ws/turni/get',
         api: {
-           read: '/vvfriva/ws/turni/get',
+           read: '/vvfriva2/ws/turni/get',
         },
         reader: {
             type: 'json',

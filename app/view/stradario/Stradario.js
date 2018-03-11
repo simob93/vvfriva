@@ -5,7 +5,8 @@ Ext.define('vvf.view.stradario.Stradario',{
     requires: [
         'vvf.view.stradario.StradarioController',
         'vvf.view.stradario.store.Stradario',
-        'vvf.view.stradario.StradarioForm'
+        'vvf.view.stradario.StradarioForm',
+        'vvf.view.stradario.MappaIdranti'
     ],
 
     controller: 'stradario',
@@ -63,6 +64,13 @@ Ext.define('vvf.view.stradario.Stradario',{
                         listeners: {
                             change: 'changeCerca'
                         }
+                    },
+                    {
+                        xtype: 'button',
+                        cls: 'no-background',
+                        iconCls: 'icon-earth',
+                        handler: 'showMap',
+                        scale: 'medium'
                     },
                     {
                         xtype: 'tbfill'
