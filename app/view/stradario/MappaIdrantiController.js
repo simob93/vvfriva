@@ -254,13 +254,13 @@ Ext.define('vvf.view.stradario.MappaIdrantiController', {
 //				
         	   //this.caricaIdranti();
         	    
-        	    google.maps.event.addListener(map.gmap, 'click', (event) => {
-	        	    this.insertIdrante({
-	        	    	latitudine:event.latLng.lat(), 
-	        	    	longitudine: event.latLng.lng()
-	        	    })
-	        	    
-	        	});
+//        	    google.maps.event.addListener(map.gmap, 'click', (event) => {
+//	        	    this.insertIdrante({
+//	        	    	latitudine:event.latLng.lat(), 
+//	        	    	longitudine: event.latLng.lng()
+//	        	    })
+//	        	    
+//	        	});
 				clearInterval(this.interval);
 			}
 		}, 300);

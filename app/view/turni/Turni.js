@@ -27,24 +27,24 @@ Ext.define('vvf.view.turni.Turni',{
         	},
         	//padding: 6,
         	items: [
-        		{
-        			xtype: 'panel',
-        			hidden: true,
-        			width: 300,
-        			reference: 'BoxInfo',
-        			cls: 'shadow animated slideInLeft',
-        			layout: {
-        				type: 'vbox',
-        				align: 'middle',
-        				pack: 'center'
-        			},
-        			bodyStyle: {
-        				background: '#FFB74D',
-        				color: '#fff',
-        				textAlign: 'center',
-        			    fontSize: '15px;'
-        			}
-        		},
+//        		{
+//        			xtype: 'panel',
+//        			hidden: true,
+//        			width: 300,
+//        			reference: 'BoxInfo',
+//        			cls: 'shadow animated slideInLeft',
+//        			layout: {
+//        				type: 'vbox',
+//        				align: 'middle',
+//        				pack: 'center'
+//        			},
+//        			bodyStyle: {
+//        				background: '#FFB74D',
+//        				color: '#fff',
+//        				textAlign: 'center',
+//        			    fontSize: '15px;'
+//        			}
+//        		},
         	]
         },
         {
@@ -54,7 +54,7 @@ Ext.define('vvf.view.turni.Turni',{
         	disableSelection: true,
         	header: false,
         	//hideHeaders: true,
-        	rowLines: false,
+        	//rowLines: false,
         	store: {
         		type: 'turni'
         	},
@@ -66,7 +66,8 @@ Ext.define('vvf.view.turni.Turni',{
         			width: 160,
         			renderer: function(value, metaData, record) {
         				metaData.tdStyle = 'font-weight: bold; font-style: italic; text-decoration: underline;'
-        				return Standard.renderCellCalendar(value);
+        				//return Standard.renderCellCalendar(value);
+        				return value;
         			} 
         		},
         		{
@@ -75,7 +76,7 @@ Ext.define('vvf.view.turni.Turni',{
         			text: 'Data',
         			dataIndex: 'dataTurno',
         			renderer: function(value, metaData, record) {
-        				return Standard.renderCellCalendar(value);
+        				return value;
         			} 
         		},
         		{
@@ -83,14 +84,14 @@ Ext.define('vvf.view.turni.Turni',{
         			width: 200,
         			dataIndex: 'nominativoVigile',
         			renderer: function(value, metaData, record) {
-        				return Standard.renderCellCalendar(value);
+        				return value;
         			} 
         		},
         		{
         			text: 'Patente',
         			dataIndex: 'patente',
         			renderer: function(value, metaData, record) {
-        				return Standard.renderCellCalendar(value);
+        				return value;
         			}
         		},
         		{
@@ -99,7 +100,7 @@ Ext.define('vvf.view.turni.Turni',{
         			dataIndex: 'note',
         			renderer: function(value, metaData, record) {
         				value = '';
-        				return Standard.renderCellCalendar(value);
+        				return value;
         			}
         		}
         	],
@@ -115,8 +116,8 @@ Ext.define('vvf.view.turni.Turni',{
 					handler: 'winFiltri'
 				}
         	],
-        	
         	viewConfig: {
+        		loadMask: false,
         		getRowClass: function(record, rowIndex, rowParams, store){
         	        return 'row-height-70'
         	    }

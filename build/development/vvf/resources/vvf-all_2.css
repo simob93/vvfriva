@@ -11225,3 +11225,7 @@ tr.x-grid-subtable-row {
 .x-datepicker-selected div.x-datepicker-date {
     border-radius: 50%;
 }
+/* D:/tomcat/tomcat9.0.0/webapps/vvf/sass/src/view/menu/Menu.scss:305 */
+.x-grid-cell {
+    vertical-align: middle !important;
+}

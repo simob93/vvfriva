@@ -69,6 +69,7 @@ Ext.define('vvf.view.protocolli.ProtocolliController', {
         let win = Ext.create('vvf.componenti.StdWin', {
             width: 820,
             height: 500,
+            closable: false,
             title: 'Enti',
             view: 'vvf.view.enti.Enti',
             vvfConfig: {
@@ -83,6 +84,7 @@ Ext.define('vvf.view.protocolli.ProtocolliController', {
         let win = Ext.create('vvf.componenti.StdWin', {
             width: 820,
             height: 500,
+            closable: false,
             title: 'Nuovo Protocollo',
             view: 'vvf.view.protocolli.ProtocolliForm',
             vvfConfig: {

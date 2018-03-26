@@ -172,15 +172,9 @@ Ext.define('vvf.view.turni.TurniController', {
     },
     
     launch() {
-        this.whoIs();
+        //this.whoIs();
         this.aggiornaStore();
-        
-        let label = this.lookup('LabelInfoTurno'),
-        	today = new Date();
-        
-//        label.setHtml(
-//        	Standard.formattaData(Standard.getFirstDayOfWeek(today)) + ' - ' + Standard.formattaData(Standard.getLastDayOfWeek(today))
-//        );
+
     }
 
 });

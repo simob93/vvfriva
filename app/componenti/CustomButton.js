@@ -47,23 +47,24 @@ Ext.define('vvf.componenti.CustomButton', {
                 xtype: 'button',
                 reference: 'BtnElimina',
                 tooltip: 'elimina',
-                text: 'Elimina'
+                text: 'Elimina',
             },
-//            {
-//                xtype: 'button',
-//                iconCls: 'icon-exit',
-//                cls: 'no-background',
-//                scale: 'medium',
-//                reference: 'BtnEsci',
-//                listeners: {
-//                    click: th => {
-//                       
-//                        if (this.vvfConfig.esci_callBack) {
-//                            this.vvfConfig.esci_callBack();
-//                        }
-//                    }
-//                }
-//            }
+            {
+                xtype: 'button',
+                iconCls: 'icon-exit',
+                cls: 'no-background',
+                scale: 'medium',
+                reference: 'BtnEsci',
+                tooltip: 'Esci',
+                listeners: {
+                    click: th => {
+                       
+                        if (this.vvfConfig.esci_callBack) {
+                            this.vvfConfig.esci_callBack();
+                        }
+                    }
+                }
+            }
         ];
 		this.callParent();
 	}

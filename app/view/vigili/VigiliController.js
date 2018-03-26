@@ -46,6 +46,7 @@ Ext.define('vvf.view.vigili.VigiliController', {
     itemdblclickGrid(th, record) {
         let win = Ext.create('vvf.componenti.StdWin', {
             width: 600,
+            closable: false,
             height: 450,
             title: 'Nuovo vigile',
             view: 'vvf.view.vigili.VigiliForm',
@@ -63,6 +64,7 @@ Ext.define('vvf.view.vigili.VigiliController', {
             width: 600,
             height: 450,
             title: 'Vigile',
+            closable: false,
             view: 'vvf.view.vigili.VigiliForm',
             vvfConfig: {
                 controllerMain: this
