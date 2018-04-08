@@ -82,19 +82,22 @@ Ext.define('vvf.view.protocolli.Protocolli',{
                         handler: 'clickBtnFind'
                     },
                     {
-                        xtype: 'tbfill'
-                    },
-                    {
                         xtype: 'button',
-                        width: 100,
+                       // width: 100,
+                        ui: 'special',
+                        iconCls: 'icon-archivio',
                         text: 'Archivio',
                         handler: 'creaWinArchivi'
                     },
                     {
                         xtype: 'button',
-                        width: 100,
+                        //width: 100,
                         text: 'Enti',
+                        ui: 'special',
                         handler: 'creaWinEnti'
+                    },
+                    {
+                        xtype: 'tbfill'
                     },
                     {
                         xtype: 'button',

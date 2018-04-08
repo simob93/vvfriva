@@ -26,10 +26,12 @@ Ext.define('vvf.view.archivi.ArchiviController', {
     }, 
 
     editGrid(editor, context) {
-        let record = context.record.data,
+        let record = editor.getEditor().getForm().getFieldValues(),
             grid = this.lookup('Grid');
+        
+        
         Ext.apply(record, {
-            id: Ext.isString(record.id) ? null : record.id
+            id: Ext.isString(context.record.id) ? null : context.record.id
         });
         Standard.salvaRecord(grid, record);
     }, 

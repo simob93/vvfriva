@@ -54,9 +54,19 @@
     $background-color: #FFB300,
     $border-color: #FFB300,
     $font-size: 15px
-); 
+);
 
+@include extjs-button-medium-ui(
+    $ui: 'special',
+    $background-color: #E65100,
+    $border-color: #E65100
+ );  
 
+@include extjs-button-small-ui(
+    $ui: 'special',
+    $background-color: #E65100,
+    $border-color: #E65100
+);  
 
 @include extjs-button-small-ui(
     $ui: 'login',
@@ -155,8 +165,21 @@ $enable-font-awesome: dynamic(true);
     
 }
 
+.icon-compleanno {
+	background-image: url("images/compleanno.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
 .icon-add {
 	background-image: url("images/add.svg");
+	background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-archivio {
+	background-image: url("images/folder.svg");
 	background-repeat: no-repeat;
     background-position: center;
 }
@@ -295,6 +318,9 @@ $enable-font-awesome: dynamic(true);
 .x-fieldset-header-text {
 	font-size: 16px !important; 
 	
+}
+.x-fieldset {
+	border-radius: 5px;
 }
 
 

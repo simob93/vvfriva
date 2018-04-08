@@ -43,6 +43,7 @@ Ext.define('vvf.view.enti.Enti',{
             ],
             plugins: [{
                 ptype: 'rowediting',
+                errorSummary: false,
                 clicksToMoveEditor: 2,
                
             }],

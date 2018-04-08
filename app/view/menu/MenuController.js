@@ -36,8 +36,22 @@ Ext.define('vvf.view.menu.MenuController', {
 //            iconCls: 'icon-notification',
 //        });
         cnt.add({
+            xtype: 'button',
+            hidden: true,
+            itemId: 'BtnBirthday', reference: 'BtnBirthday',
+            margin: '0 10 0 0',
+            iconCls: 'icon-compleanno',
+            width: 40,
+            height: 40,
+            scale: 'large',
+            tooltip: 'Compleanno in arrivo!',
+            cls: 'no-background',
+            handler: Ext.bind(this.clickBtnBirthday, this)
+        });
+        cnt.add({
             xtype: 'tbseparator',
         });
+        
         cnt.add({
             xtype: 'button',
             itemId: 'BtnLogin', reference: 'BtnLogin',
@@ -48,6 +62,45 @@ Ext.define('vvf.view.menu.MenuController', {
             handler: th => this.logIn(th)
             //scale: 'medium',
         });
+    },
+    
+    clickBtnBirthday(th) {
+    	
+    	let win = Ext.create('stdWin',{
+    		title: 'Compleanni VVF',
+    		width: 400,
+    		height: 150,
+    		layout: 'fit',
+    		items: [
+    			{
+    				xtype: 'dataview',
+    				itemId: 'List',
+    				flex: 1,
+    				itemSelector : 'thumb-wra',
+    				tpl: new Ext.XTemplate(
+				    '<tpl for=".">',
+				        '<div class="shadow" style="margin: 3px; padding: 8px;">',
+				          '<span><img style="margin-right: 5px;" src="resources/images/fireman.svg" align="center" width="24" height="24" /></span><span>{nome}</span> <span>{cognome}</span>',
+				        '</div>',
+				    '</tpl>'
+    			    ),
+    				store: Ext.create('Ext.data.Store', {
+    					fields: [
+    						{name: 'nome'},
+    						{name: 'cognome'}
+    					],
+    					autoLoad: true,
+    					autoDestroy: true
+    				})
+    			}
+    		]
+    	});
+    	
+    	let store = win.down('#List').getStore();
+    	store.removeAll();
+    	store.loadData(this.listBirthday);
+    	
+    	win.showBy(th, 'bl',[-win.width]);
     },
     
     sbloccaBtn(sblocca) { 
@@ -130,11 +183,37 @@ Ext.define('vvf.view.menu.MenuController', {
     	th.getEl().on('click', () => this.clickShortMenu(th))
     },
     
+    checkBirthdays() {
+    	this.listBirthday = [];
+    	let btnBirthday = this.lookup('CntMenu').down('#BtnBirthday')
+    	Ext.Ajax.request({
+            method: 'GET',
+            url: '/vvfriva2/ws/general/checkbirthdays',
+            success: response => { 
+                let risposta = Ext.decode(response.responseText);
+                if (risposta.success) { 
+                	btnBirthday.setHidden(Ext.isEmpty(risposta.data));
+                	if (risposta.data && risposta.data.length > 0) {
+                		this.listBirthday = risposta.data;
+                	}
+                }
+            }
+        });
+    },
+    
     launch() {
+    	this.listBirthday = [];
         this.store = Ext.create('vvf.view.menu.store.Menu');
         this.generaMenu();
-        
         this.existSession();
+        this.checkBirthdays();
+        setInterval(() => {
+        	//mezzanotte 
+        	let now = new Date();
+			if (now.getHours() === 0 && now.getMinutes() === 0) {
+				this.checkBirthdays();
+			}
+		}, 60000);
         
        
     }

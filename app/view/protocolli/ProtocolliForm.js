@@ -61,7 +61,7 @@ Ext.define('vvf.view.protocolli.ProtocolliForm',{
                                 {
                                     xtype: 'datefield',
                                     reference: 'DataReg',
-                                    fieldLabel: 'Data reg',
+                                    fieldLabel: 'Data',
                                     format: 'd/m/Y',
                                     name: 'data',
                                     allowBlank: false,

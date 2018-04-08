@@ -122,9 +122,9 @@ Ext.define('vvf.standard.Standard',{
         },
         toastMsgShow(title, messagge) {
             Ext.toast({
-                border: false,
+                title: 'Attenzione',
                 width: 400,
-                height: 160,
+                height: 130,
                 html: '<div style="vertical-align: middle;line-height: 6;text-align:center; font-weight: bold;">' + messagge + '</div>',
                 align: 't'
             });

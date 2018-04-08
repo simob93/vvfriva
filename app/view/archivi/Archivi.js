@@ -35,6 +35,7 @@ Ext.define('vvf.view.archivi.Archivi',{
                     width: 100,
                     editor: {
                         xtype: 'textfield',
+                        name: 'numero',
                         allowBlank: false
                     }
                 },
@@ -45,12 +46,14 @@ Ext.define('vvf.view.archivi.Archivi',{
                     flex: 1,
                     editor: {
                         xtype: 'textfield',
+                        name: 'descrizione',
                         allowBlank: false
                     }
                 }
             ],
             plugins: [{
-                ptype: 'rowediting',               
+                ptype: 'rowediting', 
+                errorSummary: false,
             }],
             dockedItems: [{
                 xtype: 'toolbar',

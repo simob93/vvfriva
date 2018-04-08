@@ -3,10 +3,12 @@ Ext.define('vvf.view.protocolli.ProtocolliController', {
     alias: 'controller.protocolli',
 
     aggiornaStore() {
+    	
         let grid = this.lookupReference('Grid'),
             store = grid.getStore(),
             searchText = this.lookup('TxtSearch').getValue();
         
+        store.removeAll();
         store.load({
         	params: {
         		oggetto: searchText
@@ -36,8 +38,8 @@ Ext.define('vvf.view.protocolli.ProtocolliController', {
 
     itemdblclickGrid(th, record) {
         let win = Ext.create('vvf.componenti.StdWin', {
-            width: 820,
-            height: 500,
+        	width: 900,
+            height: 650,
             title: 'Modifica Protocollo',
             view: 'vvf.view.protocolli.ProtocolliForm',
             vvfConfig: {
@@ -69,7 +71,6 @@ Ext.define('vvf.view.protocolli.ProtocolliController', {
         let win = Ext.create('vvf.componenti.StdWin', {
             width: 820,
             height: 500,
-            closable: false,
             title: 'Enti',
             view: 'vvf.view.enti.Enti',
             vvfConfig: {
@@ -82,8 +83,8 @@ Ext.define('vvf.view.protocolli.ProtocolliController', {
     creaWin() {
         
         let win = Ext.create('vvf.componenti.StdWin', {
-            width: 820,
-            height: 500,
+            width: 900,
+            height: 650,
             closable: false,
             title: 'Nuovo Protocollo',
             view: 'vvf.view.protocolli.ProtocolliForm',
@@ -111,7 +112,7 @@ Ext.define('vvf.view.protocolli.ProtocolliController', {
         let grid = this.lookupReference('Grid'),
        		store = grid.getStore();
         
-        store.on('beforeload', (store, op) => { debugger;
+        store.on('beforeload', (store, op) => { 
         	let searchText = this.lookup('TxtSearch').getValue();
         	Ext.apply(store.proxy.extraParams, {
         		oggetto: searchText

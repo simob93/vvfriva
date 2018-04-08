@@ -10,6 +10,7 @@ Ext.define('vvf.view.menu.Menu',{
         'vvf.view.turni.Turni',
         'vvf.view.protocolli.Protocolli',
         'vvf.view.vigili.Vigili',
+        'vvf.componenti.StdWin'
     ],
 
     controller: 'menu',
@@ -20,7 +21,7 @@ Ext.define('vvf.view.menu.Menu',{
     flex: 1,
     items: [
         {
-            xtype: 'container',
+            xtype: 'toolbar',
             layout: {
                 type: 'hbox',
                 align: 'middle'

@@ -19,6 +19,7 @@ Ext.override(Ext.grid.Panel, {
 	autoCancel: false,
 	saveBtnText: 'Conferma',
 	cancelBtnText: 'Ripristina',
+	errorSummary: false,
 	
 	initComponent: function () {
 		this.callParent(arguments);	
